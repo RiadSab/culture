@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rabat - Ville Impériale du Maroc</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Villes Impériales du Maroc</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="villes.html" class="active">Villes</a></li>
+                <li><a href="itineraire.html">Itinéraires</a></li>
+                <li><a href="partenaires.html">Partenaires</a></li>
+                <li><a href="marketing.html">Offres</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="ville-hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/rabat-hero.jpg');">
+            <div class="container">
+                <h2 class="slide-in-left">Rabat</h2>
+                <p class="slide-in-right">La capitale du Royaume, entre histoire et modernité</p>
+            </div>
+        </section>
+        
+        <section class="ville-intro">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h3><i class="fas fa-landmark"></i> Bienvenue à Rabat</h3>
+                    <p>Rabat, capitale actuelle du Maroc, allie patrimoine historique et modernité avec élégance. Située sur la côte atlantique, cette ville impériale offre un cadre paisible avec ses larges avenues, ses espaces verts et son riche héritage culturel.</p>
+                </div>
+                
+                <div class="ville-stat-grid fade-in-up">
+                    <div class="ville-stat">
+                        <i class="fas fa-calendar-alt"></i>
+                        <h4>Fondée au</h4>
+                        <p>12ème siècle</p>
+                    </div>
+                    <div class="ville-stat">
+                        <i class="fas fa-users"></i>
+                        <h4>Population</h4>
+                        <p>~580,000</p>
+                    </div>
+                    <div class="ville-stat">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <h4>Superficie</h4>
+                        <p>118 km²</p>
+                    </div>
+                    <div class="ville-stat">
+                        <i class="fas fa-temperature-high"></i>
+                        <h4>Climat</h4>
+                        <p>Méditerranéen</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="ville-histoire" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/images/rabat-old.jpg');">
+            <div class="container">
+                <div class="section-header light-text fade-in">
+                    <h3><i class="fas fa-book-open"></i> Histoire</h3>
+                </div>
+                <div class="histoire-content fade-in-up">
+                    <p>Fondée au XIIe siècle par les Almohades, Rabat a d'abord été une forteresse militaire (ribat) avant de devenir une capitale impériale. Le calife almohade Abd al-Mumin y établit d'abord un ribat (forteresse) pour lancer des attaques contre l'Espagne.</p>
+                    <p>Son successeur Yacoub El Mansour décida d'en faire une grande capitale et lança la construction de la mosquée Hassan (dont seul le minaret, la Tour Hassan, subsiste aujourd'hui). Après la mort d'El Mansour, Rabat perdit son statut privilégié jusqu'au début du XVIIe siècle, quand elle accueillit de nombreux réfugiés musulmans et juifs expulsés d'Espagne.</p>
+                    <p>Déclarée capitale du Maroc moderne en 1912 sous le protectorat français, elle a conservé ce statut après l'indépendance en 1956. La ville a connu un développement harmonieux mêlant architecture traditionnelle et moderne, avec une attention particulière portée aux espaces verts et à l'urbanisme.</p>
+                </div>
+                <div class="timeline fade-in">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">12ème siècle</div>
+                        <div class="timeline-content">Fondation comme forteresse militaire par les Almohades</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">1195</div>
+                        <div class="timeline-content">Début de la construction de la mosquée Hassan</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">17ème siècle</div>
+                        <div class="timeline-content">Arrivée des corsaires morisques</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">1912</div>
+                        <div class="timeline-content">Capitale sous le protectorat français</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2012</div>
+                        <div class="timeline-content">Inscription au patrimoine mondial de l'UNESCO</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="ville-attractions">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h3><i class="fas fa-monument"></i> Sites Incontournables</h3>
+                    <p>Découvrez les trésors architecturaux et culturels de Rabat</p>
+                </div>
+                
+                <div class="attractions-slider">
+                    <div class="attraction-card fade-in-up" data-delay="100">
+                        <div class="attraction-img">
+                            <img src="assets/images/rabat-tour-hassan.jpg" alt="Tour Hassan">
+                        </div>
+                        <div class="attraction-content">
+                            <h4>Tour Hassan</h4>
+                            <p>Minaret inachevé du XIIe siècle qui devait être la plus grande mosquée du monde, avec ses colonnes témoignant de l'ambition du projet. Un site historique majeur de la ville.</p>
+                            <a href="#" class="btn-small popup-trigger" data-popup="tourhassan">En savoir plus</a>
+                        </div>
+                    </div>
+                    
+                    <div class="attraction-card fade-in-up" data-delay="200">
+                        <div class="attraction-img">
+                            <img src="assets/images/rabat-kasbah.jpg" alt="Kasbah des Oudayas">
+                        </div>
+                        <div class="attraction-content">
+                            <h4>Kasbah des Oudayas</h4>
+                            <p>Citadelle fortifiée du XIIe siècle offrant une vue imprenable sur l'océan, avec ses ruelles bleues et blanches et son jardin andalou. Un havre de paix au cœur de la ville.</p>
+                            <a href="#" class="btn-small popup-trigger" data-popup="kasbah">En savoir plus</a>
+                        </div>
+                    </div>
+                    
+                    <div class="attraction-card fade-in-up" data-delay="300">
+                        <div class="attraction-img">
+                            <img src="assets/images/rabat-chellah.jpg" alt="Chellah">
+                        </div>
+                        <div class="attraction-content">
+                            <h4>Chellah</h4>
+                            <p>Site archéologique combinant ruines romaines de Sala Colonia et nécropole mérinide du XIVe siècle, entouré de jardins. Un témoignage fascinant de plusieurs époques.</p>
+                            <a href="#" class="btn-small popup-trigger" data-popup="chellah">En savoir plus</a>
+                        </div>
+                    </div>
+                    
+                    <div class="attraction-card fade-in-up" data-delay="400">
+                        <div class="attraction-img">
+                            <img src="assets/images/rabat-mausolee.jpg" alt="Mausolée Mohammed V">
+                        </div>
+                        <div class="attraction-content">
+                            <h4>Mausolée Mohammed V</h4>
+                            <p>Chef-d'œuvre architectural où reposent le roi Mohammed V et ses fils, orné de marbre, de zelliges et de sculptures. Un monument symbolique de l'indépendance marocaine.</p>
+                            <a href="#" class="btn-small popup-trigger" data-popup="mausolee">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="ville-culture" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/images/rabat-culture.jpg');">
+            <div class="container">
+                <div class="section-header light-text fade-in">
+                    <h3><i class="fas fa-theater-masks"></i> Culture et Traditions</h3>
+                    <p>Plongez dans l'héritage culturel riche et diversifié de Rabat</p>
+                </div>
+                
+                <div class="culture-grid">
+                    <div class="culture-card zoom-in">
+                        <div class="culture-icon">
+                            <i class="fas fa-music"></i>
+                        </div>
+                        <h4>Festival Mawazine</h4>
+                        <p>L'un des plus grands festivals de musique d'Afrique, attirant des stars internationales et des millions de spectateurs. Un événement qui fait vibrer la ville chaque année.</p>
+                        <span class="period">Juin</span>
+                    </div>
+                    
+                    <div class="culture-card zoom-in" data-delay="200">
+                        <div class="culture-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h4>Tapisserie de Rabat</h4>
+                        <p>Art traditionnel de la tapisserie berbère, caractérisé par des motifs géométriques et des couleurs vives. Un artisanat unique perpétué par des générations d'artisans.</p>
+                    </div>
+                    
+                    <div class="culture-card zoom-in" data-delay="400">
+                        <div class="culture-icon">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                        <h4>Cérémonies royales</h4>
+                        <p>En tant que capitale, Rabat accueille de nombreuses cérémonies officielles comme la Fête du Trône, célébrant l'anniversaire de l'intronisation du roi.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="ville-gallery">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h3><i class="fas fa-camera"></i> Galerie Photo</h3>
+                    <p>Images capturant la beauté et l'essence de Rabat</p>
+                </div>
+                
+                <div class="gallery-grid fade-in-up">
+                    <div class="gallery-item" onclick="openLightbox('assets/images/rabat-gallery1.jpg', 'Vue sur la rivière Bouregreg')">
+                        <img src="assets/images/rabat-gallery1.jpg" alt="Vue sur la rivière Bouregreg">
+                        <div class="gallery-overlay">
+                            <span>Vue sur la rivière Bouregreg</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openLightbox('assets/images/rabat-gallery2.jpg', 'Médina de Rabat')">
+                        <img src="assets/images/rabat-gallery2.jpg" alt="Médina de Rabat">
+                        <div class="gallery-overlay">
+                            <span>Médina de Rabat</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openLightbox('assets/images/rabat-gallery3.jpg', 'Jardin andalou')">
+                        <img src="assets/images/rabat-gallery3.jpg" alt="Jardin andalou">
+                        <div class="gallery-overlay">
+                            <span>Jardin andalou</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openLightbox('assets/images/rabat-gallery4.jpg', 'Architecture moderne')">
+                        <img src="assets/images/rabat-gallery4.jpg" alt="Architecture moderne">
+                        <div class="gallery-overlay">
+                            <span>Architecture moderne</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openLightbox('assets/images/rabat-gallery5.jpg', 'Coucher de soleil sur l\'océan')">
+                        <img src="assets/images/rabat-gallery5.jpg" alt="Coucher de soleil sur l'océan">
+                        <div class="gallery-overlay">
+                            <span>Coucher de soleil sur l'océan</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openLightbox('assets/images/rabat-gallery6.jpg', 'Artisanat local')">
+                        <img src="assets/images/rabat-gallery6.jpg" alt="Artisanat local">
+                        <div class="gallery-overlay">
+                            <span>Artisanat local</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="ville-visite">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h3><i class="fas fa-map-marked-alt"></i> Planifiez Votre Visite</h3>
+                    <p>Conseils pratiques pour profiter pleinement de votre séjour à Rabat</p>
+                </div>
+                
+                <div class="visite-grid">
+                    <div class="visite-card flip-card">
+                        <div class="visite-card-inner">
+                            <div class="visite-card-front">
+                                <i class="fas fa-calendar-alt"></i>
+                                <h4>Meilleure période</h4>
+                            </div>
+                            <div class="visite-card-back">
+                                <p>Avril à juin et septembre à novembre offrent un climat idéal. L'été est chaud mais tempéré par la brise océanique, rendant la visite agréable toute l'année.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="visite-card flip-card">
+                        <div class="visite-card-inner">
+                            <div class="visite-card-front">
+                                <i class="fas fa-walking"></i>
+                                <h4>Comment se déplacer</h4>
+                            </div>
+                            <div class="visite-card-back">
+                                <p>Le tramway moderne relie les principales attractions. Les petits taxis sont économiques pour les trajets urbains, et la ville est agréable à explorer à pied.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="visite-card flip-card">
+                        <div class="visite-card-inner">
+                            <div class="visite-card-front">
+                                <i class="fas fa-bed"></i>
+                                <h4>Où loger</h4>
+                            </div>
+                            <div class="visite-card-back">
+                                <p>Le quartier Agdal offre de nombreux hôtels modernes, tandis que la médina et la Kasbah proposent des riads plus traditionnels pour une expérience authentique.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="visite-card flip-card">
+                        <div class="visite-card-inner">
+                            <div class="visite-card-front">
+                                <i class="fas fa-info-circle"></i>
+                                <h4>Conseils pratiques</h4>
+                            </div>
+                            <div class="visite-card-back">
+                                <p>Prévoyez une excursion à Salé, la ville jumelle de l'autre côté du fleuve Bouregreg, accessible par tramway. N'oubliez pas de visiter la corniche pour profiter de l'océan.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="ville-map">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h3><i class="fas fa-map"></i> Carte de Rabat</h3>
+                </div>
+                <div class="map-container fade-in-up">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106714.51343033624!2d-6.908898644244857!3d34.01577950187856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76b871f50c5c1%3A0x7ac946ed7408076b!2sRabat%2C%20Maroc!5e0!3m2!1sfr!2sfr!4v1635789123458!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+        
+        <section class="cta-section" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/images/rabat-cta.jpg');">
+            <div class="container">
+                <div class="cta-content text-center fade-in">
+                    <h3>Prêt à découvrir Rabat?</h3>
+                    <p>Explorez nos circuits incluant cette magnifique ville impériale</p>
+                    <div class="cta-buttons">
+                        <a href="itineraire.html" class="btn pulse">Voir les itinéraires</a>
+                        <a href="contact.html" class="btn btn-outline">Nous contacter</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Lightbox pour les images de la galerie -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="lightbox-caption"></div>
+    </div>
+    
+    <!-- Popups pour les attractions -->
+    <div id="popup-tourhassan" class="popup">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <h3>Tour Hassan</h3>
+            <img src="assets/images/rabat-tour-hassan.jpg" alt="Tour Hassan">
+            <p>Ce minaret inachevé devait faire partie d'une mosquée gigantesque commandée par le calife almohade Yacoub El Mansour à la fin du XIIe siècle. Si elle avait été achevée, elle aurait été la plus grande mosquée du monde occidental à l'époque.</p>
+            <p>Le projet fut abandonné à la mort du calife en 1199, laissant la tour à environ la moitié de sa hauteur prévue (44 mètres sur les 86 mètres planifiés). Le site comprend également les vestiges des colonnes qui devaient soutenir la salle de prière, alignées en rangées parfaites.</p>
+            <p><strong>Horaires :</strong> 9h-18h tous les jours<br>
+            <strong>Conseil :</strong> Visitez aussi le Mausolée Mohammed V situé juste en face</p>
+        </div>
+    </div>
+    
+    <div id="popup-kasbah" class="popup">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <h3>Kasbah des Oudayas</h3>
+            <img src="assets/images/rabat-kasbah.jpg" alt="Kasbah des Oudayas">
+            <p>Cette magnifique citadelle située sur une falaise surplombant l'embouchure du fleuve Bouregreg fut fondée au XIIe siècle. C'est l'un des endroits les plus pittoresques de Rabat, avec ses ruelles étroites aux maisons peintes en bleu et blanc, rappelant les villages méditerranéens.</p>
+            <p>La Kasbah abrite le musée des Oudayas avec sa collection d'objets traditionnels marocains, ainsi qu'un jardin andalou serein créé pendant la période du protectorat français. Le café maure propose une vue splendide sur l'océan et la ville de Salé.</p>
+            <p><strong>Horaires :</strong> Accessible tous les jours, le musée est ouvert de 9h à 17h (fermé le mardi)<br>
+            <strong>Conseil :</strong> Visitez tôt le matin ou en fin d'après-midi pour éviter les foules et profiter de la lumière</p>
+        </div>
+    </div>
+    
+    <div id="popup-chellah" class="popup">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <h3>Chellah</h3>
+            <img src="assets/images/rabat-chellah.jpg" alt="Chellah">
+            <p>Site fascinant qui combine plusieurs couches d'histoire : d'abord colonie phénicienne, puis romaine (Sala Colonia), et enfin nécropole mérinide au XIVe siècle. Entouré d'imposantes murailles, ce lieu paisible est aujourd'hui habité par de nombreux oiseaux, notamment des cigognes qui nichent sur les ruines.</p>
+            <p>Parmi les vestiges remarquables figurent le forum et les thermes romains, ainsi que des monuments funéraires islamiques, une mosquée et une zaouïa (école coranique). Le jardin est particulièrement beau au printemps avec ses fleurs luxuriantes.</p>
+            <p><strong>Horaires :</strong> 8h30-17h30 (hiver) et 9h-18h30 (été), fermé pendant les grandes prières du vendredi<br>
+            <strong>Conseil :</strong> Le Festival de Jazz de Chellah en septembre offre une occasion unique d'apprécier le site en musique</p>
+        </div>
+    </div>
+    
+    <div id="popup-mausolee" class="popup">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <h3>Mausolée Mohammed V</h3>
+            <img src="assets/images/rabat-mausolee.jpg" alt="Mausolée Mohammed V">
+            <p>Ce splendide monument abrite les tombeaux du roi Mohammed V (grand-père de l'actuel roi) et de ses fils, le roi Hassan II et le prince Moulay Abdallah. Inauguré en 1971, il symbolise l'indépendance du Maroc, Mohammed V étant considéré comme le père de la nation moderne.</p>
+            <p>L'architecture mêle style traditionnel marocain et influences modernes, avec des murs recouverts de marbre blanc, des plafonds sculptés en cèdre et des toits recouverts de tuiles vertes. Des gardes royaux en uniforme d'apparat montent la garde aux entrées.</p>
+            <p><strong>Horaires :</strong> 9h-16h tous les jours, fermé pendant les prières<br>
+            <strong>Conseil :</strong> Une tenue vestimentaire respectueuse est exigée pour entrer</p>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Villes Impériales du Maroc - Agence de voyage</p>
+            <div class="social-links">
+                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="dist/main.js" type="module"></script>
+    <script src="dist/ville-detail.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+[
+  {
+    "id": "fes",
+    "nom": "Fès",
+    "description": "Fès, la plus ancienne des villes impériales du Maroc, est un joyau culturel et spirituel avec sa médina classée au patrimoine mondial de l'UNESCO. Fondée en 789, cette ville est un véritable labyrinthe de ruelles, de souks et d'architecture traditionnelle.",
+    "histoire": "Fondée en 789 par Idris Ier, Fès est devenue un centre important de l'islam au Maroc. La ville a connu son âge d'or au XIIIe siècle sous la dynastie des Mérinides. C'est à cette époque que furent construites ses médersas (écoles coraniques) les plus prestigieuses, comme la médersa Bou Inania. Fès a été la capitale du Maroc à plusieurs reprises au cours de son histoire.",
+    "sitesTouristiques": [
+      {
+        "nom": "Médina de Fès (Fès el-Bali)",
+        "description": "Plus grande médina piétonne au monde et site du patrimoine mondial de l'UNESCO, avec ses 9400 ruelles et allées.",
+        "imageUrl": "assets/images/fes-medina.jpg"
+      },
+      {
+        "nom": "Médersa Bou Inania",
+        "description": "École coranique du XIVe siècle avec de magnifiques sculptures en bois de cèdre et des zelliges (mosaïques).",
+        "imageUrl": "assets/images/fes-medersa.jpg"
+      },
+      {
+        "nom": "Tanneries Chouara",
+        "description": "Tanneries traditionnelles datant du XIe siècle où les peaux sont traitées selon des méthodes ancestrales.",
+        "imageUrl": "assets/images/fes-tanneries.jpg"
+      },
+      {
+        "nom": "Fontaine Nejjarine",
+        "description": "Magnifique fontaine ornée de zelliges dans le quartier des menuisiers.",
+        "imageUrl": "assets/images/fes-fontaine.jpg"
+      }
+    ],
+    "traditions": [
+      {
+        "nom": "Festival de Musique Sacrée du Monde",
+        "description": "Un événement annuel qui rassemble des musiciens spirituels du monde entier pour des concerts et des performances dans des sites historiques.",
+        "periode": "Mai-Juin"
+      },
+      {
+        "nom": "L'artisanat traditionnel",
+        "description": "Fès est réputée pour son artisanat: poterie bleue de Fès, travail du cuir, broderie, et travail du cuivre."
+      },
+      {
+        "nom": "Gastronomie fassi",
+        "description": "La cuisine de Fès est considérée comme l'une des plus raffinées du Maroc, avec des plats emblématiques comme la pastilla."
+      }
+    ]
+  },
+  {
+    "id": "meknes",
+    "nom": "Meknès",
+    "description": "Meknès, surnommée 'la ville aux cent minarets', est la plus modeste des villes impériales mais recèle des trésors architecturaux impressionnants. Bâtie au 17ème siècle par le sultan Moulay Ismaïl, elle est célèbre pour ses remparts monumentaux et ses portes grandioses.",
+    "histoire": "Bien que fondée au 10ème siècle, Meknès doit sa grandeur au sultan alaouite Moulay Ismaïl qui en fit sa capitale au 17ème siècle. Il la transforma en une impressionnante cité impériale entourée de hauts murs et ornée de monuments remarquables. Influencé par Versailles, le sultan voulait faire de Meknès une ville aussi splendide que la résidence du Roi Soleil.",
+    "sitesTouristiques": [
+      {
+        "nom": "Bab Mansour",
+        "description": "L'une des plus imposantes portes d'Afrique du Nord, construite en 1732, ornée de zelliges et de colonnes de marbre.",
+        "imageUrl": "assets/images/meknes-bab-mansour.jpg"
+      },
+      {
+        "nom": "Mausolée Moulay Ismail",
+        "description": "Lieu de repos du sultan Moulay Ismaïl, orné de stucs, de fontaines et de mosaïques.",
+        "imageUrl": "assets/images/meknes-mausolee.jpg"
+      },
+      {
+        "nom": "Heri es-Souani",
+        "description": "Anciennes écuries et greniers royaux pouvant abriter jusqu'à 12 000 chevaux, un témoignage de la grandeur de l'époque.",
+        "imageUrl": "assets/images/meknes-heri.jpg"
+      },
+      {
+        "nom": "Médina de Meknès",
+        "description": "Moins touristique que celle de Fès, elle offre une expérience plus authentique des souks marocains.",
+        "imageUrl": "assets/images/meknes-medina.jpg"
+      }
+    ],
+    "traditions": [
+      {
+        "nom": "La Fantasia",
+        "description": "Spectacle équestre traditionnel où des cavaliers en costumes traditionnels exécutent des acrobaties spectaculaires à cheval.",
+        "periode": "Été et lors de festivals"
+      },
+      {
+        "nom": "Le Moussem de Moulay Idriss",
+        "description": "Pèlerinage annuel commémorant le fondateur de la première dynastie marocaine."
+      },
+      {
+        "nom": "Artisanat de la damasquinerie",
+        "description": "Art décoratif consistant à incruster des fils d'or ou d'argent dans du métal, une spécialité de Meknès."
+      }
+    ]
+  },
+  {
+    "id": "rabat",
+    "nom": "Rabat",
+    "description": "Rabat, capitale actuelle du Maroc, allie patrimoine historique et modernité avec élégance. Située sur la côte atlantique, cette ville impériale offre un cadre paisible avec ses larges avenues, ses espaces verts et son riche héritage culturel.",
+    "histoire": "Fondée au XIIe siècle par les Almohades, Rabat a d'abord été une forteresse militaire (ribat) avant de devenir une capitale impériale. Déclarée capitale du Maroc moderne en 1912 sous le protectorat français, elle a conservé ce statut après l'indépendance en 1956. La ville a connu un développement harmonieux mêlant architecture traditionnelle et moderne.",
+    "sitesTouristiques": [
+      {
+        "nom": "Tour Hassan",
+        "description": "Minaret inachevé du XIIe siècle qui devait être la plus grande mosquée du monde, avec ses colonnes témoignant de l'ambition du projet.",
+        "imageUrl": "assets/images/rabat-tour-hassan.jpg"
+      },
+      {
+        "nom": "Kasbah des Oudayas",
+        "description": "Citadelle fortifiée du XIIe siècle offrant une vue imprenable sur l'océan, avec ses ruelles bleues et blanches et son jardin andalou.",
+        "imageUrl": "assets/images/rabat-kasbah.jpg"
+      },
+      {
+        "nom": "Chellah",
+        "description": "Site archéologique combinant ruines romaines de Sala Colonia et nécropole mérinide du XIVe siècle, entouré de jardins.",
+        "imageUrl": "assets/images/rabat-chellah.jpg"
+      },
+      {
+        "nom": "Mausolée Mohammed V",
+        "description": "Chef-d'œuvre architectural où reposent le roi Mohammed V et ses fils, orné de marbre, de zelliges et de sculptures.",
+        "imageUrl": "assets/images/rabat-mausolee.jpg"
+      }
+    ],
+    "traditions": [
+      {
+        "nom": "Festival Mawazine",
+        "description": "L'un des plus grands festivals de musique d'Afrique, attirant des stars internationales et des millions de spectateurs.",
+        "periode": "Juin"
+      },
+      {
+        "nom": "Tapisserie de Rabat",
+        "description": "Art traditionnel de la tapisserie berbère, caractérisé par des motifs géométriques et des couleurs vives."
+      },
+      {
+        "nom": "Cérémonies royales",
+        "description": "En tant que capitale, Rabat accueille de nombreuses cérémonies officielles comme la Fête du Trône."
+      }
+    ]
+  },
+  {
+    "id": "marrakech",
+    "nom": "Marrakech",
+    "description": "Marrakech, la 'ville rouge', est peut-être la plus emblématique des villes impériales avec son ambiance unique, ses souks animés et son patrimoine architectural exceptionnel. Entre tradition et modernité, elle séduit par sa vitalité et sa richesse culturelle.",
+    "histoire": "Fondée en 1062 par les Almoravides, Marrakech fut la capitale du Maroc à plusieurs reprises et a connu son apogée sous les Almohades au XIIe siècle. La ville doit son surnom de 'ville rouge' aux murs d'argile ocre qui entourent la médina. Centre commercial important sur les routes caravanières, Marrakech est aujourd'hui la capitale touristique du pays.",
+    "sitesTouristiques": [
+      {
+        "nom": "Place Jemaa el-Fna",
+        "description": "Cœur vibrant de la ville, cette place classée au patrimoine culturel immatériel de l'UNESCO s'anime de conteurs, musiciens, acrobates et étals de nourriture, surtout au coucher du soleil.",
+        "imageUrl": "assets/images/marrakech-jemaa.jpg"
+      },
+      {
+        "nom": "Jardin Majorelle",
+        "description": "Oasis de sérénité créée par le peintre Jacques Majorelle et sauvée par Yves Saint Laurent, ce jardin botanique aux couleurs vives abrite le Musée Berbère et le Musée Yves Saint Laurent.",
+        "imageUrl": "assets/images/marrakech-majorelle.jpg"
+      },
+      {
+        "nom": "Palais Bahia",
+        "description": "Chef-d'œuvre architectural du XIXe siècle avec ses jardins, cours, salons décorés de zelliges, stucs et plafonds peints en bois de cèdre.",
+        "imageUrl": "assets/images/marrakech-bahia.jpg"
+      },
+      {
+        "nom": "Médina de Marrakech",
+        "description": "Labyrinthe de ruelles et de souks où s'entremêlent artisans, marchands et une multitude de produits artisanaux.",
+        "imageUrl": "assets/images/marrakech-medina.jpg"
+      }
+    ],
+    "traditions": [
+      {
+        "nom": "Halqa",
+        "description": "Art du cercle où conteurs et artistes de rue perpétuent la tradition orale sur la place Jemaa el-Fna."
+      },
+      {
+        "nom": "Tanjia marrakchia",
+        "description": "Plat traditionnel cuit lentement dans un pot en terre dans les cendres des hammams, spécialité culinaire unique à Marrakech."
+      },
+      {
+        "nom": "Festival International du Film de Marrakech",
+        "description": "Événement cinématographique majeur attirant stars et réalisateurs du monde entier.",
+        "periode": "Décembre"
+      }
+    ]
+  }
+]

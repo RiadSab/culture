@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #c0392b;
+        }
+    </style>
+</head>
+<body>
+    <h1>Page de Test</h1>
+    <p>Cette page sert à vérifier si le site fonctionne correctement.</p>
+    
+    <div id="test-container">
+        Si JavaScript est désactivé, vous verrez ce message.
+    </div>
+
+    <script>
+        // Vérifier si JavaScript fonctionne
+        document.getElementById('test-container').textContent = 'JavaScript fonctionne correctement!';
+    </script>
+    
+    <!-- Inclure le script de test TypeScript compilé -->
+    <script src="./dist/test.js"></script>
+</body>
+</html>

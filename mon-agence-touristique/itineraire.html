@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itinéraires - Villes Impériales du Maroc</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Villes Impériales du Maroc</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="villes.html">Villes</a></li>
+                <li><a href="itineraire.html" class="active">Itinéraires</a></li>
+                <li><a href="partenaires.html">Partenaires</a></li>
+                <li><a href="marketing.html">Offres</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="itineraire-header">
+            <h2>Nos Circuits Touristiques</h2>
+            <p>Découvrez nos itinéraires soigneusement conçus pour explorer les richesses des villes impériales</p>
+        </section>
+        
+        <section class="itineraire-options">
+            <div class="container">
+                <h3>Sélectionnez votre circuit:</h3>
+                <div class="itineraire-filters">
+                    <button class="filter-btn active" data-duration="all">Tous</button>
+                    <button class="filter-btn" data-duration="short">Court (3-5 jours)</button>
+                    <button class="filter-btn" data-duration="medium">Moyen (6-9 jours)</button>
+                    <button class="filter-btn" data-duration="long">Long (10+ jours)</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="itineraires-container">
+            <!-- Le contenu sera généré dynamiquement par itineraire.ts -->
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Villes Impériales du Maroc - Agence de voyage</p>
+            <div class="social-links">
+                <a href="#" class="social">Facebook</a>
+                <a href="#" class="social">Instagram</a>
+                <a href="#" class="social">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="dist/main.js" type="module"></script>
+    <script src="dist/itineraire.js" type="module"></script>
+</body>
+</html>

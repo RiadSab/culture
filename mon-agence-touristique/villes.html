@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villes Impériales - Découverte du Maroc</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Villes Impériales du Maroc</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="villes.html" class="active">Villes</a></li>
+                <li><a href="itineraire.html">Itinéraires</a></li>
+                <li><a href="partenaires.html">Partenaires</a></li>
+                <li><a href="marketing.html">Offres</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="ville-header">
+            <h2>Les Villes Impériales</h2>
+            <p>Explorez les quatre villes impériales du Maroc et leur riche patrimoine historique et culturel</p>
+        </section>
+        
+        <section class="villes-cards">
+            <div class="container">
+                <div class="villes-grid">
+                    <div class="ville-card fade-in-up" data-delay="100">
+                        <div class="ville-card-image">
+                            <img src="assets/images/fes-card.jpg" alt="Fès">
+                            <div class="ville-card-overlay">
+                                <a href="fes.html" class="btn">Découvrir</a>
+                            </div>
+                        </div>
+                        <div class="ville-card-content">
+                            <h3>Fès</h3>
+                            <p>La plus ancienne des villes impériales, fondée en 789, avec sa médina labyrinthique classée au patrimoine mondial.</p>
+                            <a href="fes.html" class="link-arrow">En savoir plus <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="ville-card fade-in-up" data-delay="200">
+                        <div class="ville-card-image">
+                            <img src="assets/images/meknes-card.jpg" alt="Meknès">
+                            <div class="ville-card-overlay">
+                                <a href="meknes.html" class="btn">Découvrir</a>
+                            </div>
+                        </div>
+                        <div class="ville-card-content">
+                            <h3>Meknès</h3>
+                            <p>La "Versailles marocaine" bâtie par Moulay Ismaïl au XVIIe siècle, connue pour ses impressionnantes murailles.</p>
+                            <a href="meknes.html" class="link-arrow">En savoir plus <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="ville-card fade-in-up" data-delay="300">
+                        <div class="ville-card-image">
+                            <img src="assets/images/rabat-card.jpg" alt="Rabat">
+                            <div class="ville-card-overlay">
+                                <a href="rabat.html" class="btn">Découvrir</a>
+                            </div>
+                        </div>
+                        <div class="ville-card-content">
+                            <h3>Rabat</h3>
+                            <p>Capitale actuelle du Maroc, mêlant harmonieusement patrimoine historique et modernité au bord de l'Atlantique.</p>
+                            <a href="rabat.html" class="link-arrow">En savoir plus <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="ville-card fade-in-up" data-delay="400">
+                        <div class="ville-card-image">
+                            <img src="assets/images/marrakech-card.jpg" alt="Marrakech">
+                            <div class="ville-card-overlay">
+                                <a href="marrakech.html" class="btn">Découvrir</a>
+                            </div>
+                        </div>
+                        <div class="ville-card-content">
+                            <h3>Marrakech</h3>
+                            <p>La "ville rouge" avec sa célèbre place Jemaa el-Fna, ses souks animés et ses jardins luxuriants.</p>
+                            <a href="marrakech.html" class="link-arrow">En savoir plus <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="villes-container">
+            <!-- Le contenu généré dynamiquement par villes.ts reste inchangé -->
+        </section>
+        
+        <section class="villes-map">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h3><i class="fas fa-map"></i> Carte des Villes Impériales</h3>
+                    <p>Situez les quatre villes impériales du Maroc</p>
+                </div>
+                <div class="map-container fade-in-up">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6770358.161305064!2d-10.763323241551681!3d31.79193011912497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0b88619651c58d%3A0xd9d39381c42cffc3!2sMaroc!5e0!3m2!1sfr!2sfr!4v1635790123456!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Villes Impériales du Maroc - Agence de voyage</p>
+            <div class="social-links">
+                <a href="#" class="social">Facebook</a>
+                <a href="#" class="social">Instagram</a>
+                <a href="#" class="social">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="dist/main.js" type="module"></script>
+    <script src="dist/villes.js" type="module"></script>
+</body>
+</html>

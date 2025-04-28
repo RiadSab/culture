@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marrakech - Ville Impériale du Maroc</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Villes Impériales du Maroc</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="villes.html" class="active">Villes</a></li>
+                <li><a href="itineraire.html">Itinéraires</a></li>
+                <li><a href="partenaires.html">Partenaires</a></li>
+                <li><a href="marketing.html">Offres</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="ville-hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/marrakech-hero.jpg');">
+            <div class="container">
+                <h2 class="slide-in-left">Marrakech</h2>
+                <p class="slide-in-right">La ville rouge, perle du sud marocain</p>
+            </div>
+        </section>
+        
+        <section class="ville-intro">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h3><i class="fas fa-landmark"></i> Bienvenue à Marrakech</h3>
+                    <p>Marrakech, la "ville rouge", est peut-être la plus emblématique des villes impériales avec son ambiance unique, ses souks animés et son patrimoine architectural exceptionnel.</p>
+                </div>
+                
+                <div class="ville-stat-grid fade-in-up">
+                    <div class="ville-stat">
+                        <i class="fas fa-calendar-alt"></i>
+                        <h4>Fondée en</h4>
+                        <p>1062</p>
+                    </div>
+                    <div class="ville-stat">
+                        <i class="fas fa-users"></i>
+                        <h4>Population</h4>
+                        <p>~1 million</p>
+                    </div>
+                    <div class="ville-stat">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <h4>Superficie</h4>
+                        <p>230 km²</p>
+                    </div>
+                    <div class="ville-stat">
+                        <i class="fas fa-temperature-high"></i>
+                        <h4>Climat</h4>
+                        <p>Semi-aride</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="ville-histoire" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/images/marrakech-old.jpg');">
+            <div class="container">
+                <div class="section-header light-text fade-in">
+                    <h3><i class="fas fa-book-open"></i> Histoire</h3>
+                </div>
+                <div class="histoire-content fade-in-up">
+                    <p>Fondée en 1062 par les Almoravides, Marrakech fut la capitale du Maroc à plusieurs reprises et a connu son apogée sous les Almohades au XIIe siècle. La ville doit son surnom de 'ville rouge' aux murs d'argile ocre qui entourent la médina.</p>
+                    <p>Centre commercial important sur les routes caravanières, Marrakech était un carrefour où se croisaient les influences berbères, arabes et subsahariennes. Les différentes dynasties qui s'y sont succédé ont chacune laissé leur empreinte sur le paysage urbain.</p>
+                    <p>Aujourd'hui, Marrakech est la capitale touristique du pays, attirant des millions de visiteurs du monde entier, fascinés par son mélange unique de traditions anciennes et de modernité.</p>
+                </div>
+                <div class="timeline fade-in">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">1062</div>
+                        <div class="timeline-content">Fondation par Youssef Ibn Tachfine</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">1147-1269</div>
+                        <div class="timeline-content">Période almohade, âge d'or de Marrakech</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">16ème siècle</div>
+                        <div class="timeline-content">Domination saadienne</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">1912-1956</div>
+                        <div class="timeline-content">Protectorat français</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">1985</div>
+                        <div class="timeline-content">Inscription au patrimoine mondial de l'UNESCO</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="ville-attractions">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h3><i class="fas fa-monument"></i> Sites Incontournables</h3>
+                    <p>Découvrez les trésors architecturaux et culturels de Marrakech</p>
+                </div>
+                
+                <div class="attractions-slider">
+                    <div class="attraction-card fade-in-up" data-delay="100">
+                        <div class="attraction-img">
+                            <img src="assets/images/marrakech-jemaa.jpg" alt="Place Jemaa el-Fna">
+                        </div>
+                        <div class="attraction-content">
+                            <h4>Place Jemaa el-Fna</h4>
+                            <p>Cœur vibrant de la ville, cette place classée au patrimoine culturel immatériel de l'UNESCO s'anime de conteurs, musiciens, acrobates et étals de nourriture, surtout au coucher du soleil.</p>
+                            <a href="#" class="btn-small popup-trigger" data-popup="jemaa">En savoir plus</a>
+                        </div>
+                    </div>
+                    
+                    <div class="attraction-card fade-in-up" data-delay="200">
+                        <div class="attraction-img">
+                            <img src="assets/images/marrakech-majorelle.jpg" alt="Jardin Majorelle">
+                        </div>
+                        <div class="attraction-content">
+                            <h4>Jardin Majorelle</h4>
+                            <p>Oasis de sérénité créée par le peintre Jacques Majorelle et sauvée par Yves Saint Laurent, ce jardin botanique aux couleurs vives abrite le Musée Berbère et le Musée Yves Saint Laurent.</p>
+                            <a href="#" class="btn-small popup-trigger" data-popup="majorelle">En savoir plus</a>
+                        </div>
+                    </div>
+                    
+                    <div class="attraction-card fade-in-up" data-delay="300">
+                        <div class="attraction-img">
+                            <img src="assets/images/marrakech-bahia.jpg" alt="Palais Bahia">
+                        </div>
+                        <div class="attraction-content">
+                            <h4>Palais Bahia</h4>
+                            <p>Chef-d'œuvre architectural du XIXe siècle avec ses jardins, cours, salons décorés de zelliges, stucs et plafonds peints en bois de cèdre. Un témoignage du raffinement marocain.</p>
+                            <a href="#" class="btn-small popup-trigger" data-popup="bahia">En savoir plus</a>
+                        </div>
+                    </div>
+                    
+                    <div class="attraction-card fade-in-up" data-delay="400">
+                        <div class="attraction-img">
+                            <img src="assets/images/marrakech-medina.jpg" alt="Médina de Marrakech">
+                        </div>
+                        <div class="attraction-content">
+                            <h4>Médina de Marrakech</h4>
+                            <p>Labyrinthe de ruelles et de souks où s'entremêlent artisans, marchands et une multitude de produits artisanaux. Une plongée dans l'âme authentique de Marrakech.</p>
+                            <a href="#" class="btn-small popup-trigger" data-popup="medina">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="ville-culture" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/images/marrakech-culture.jpg');">
+            <div class="container">
+                <div class="section-header light-text fade-in">
+                    <h3><i class="fas fa-theater-masks"></i> Culture et Traditions</h3>
+                    <p>Plongez dans l'héritage culturel riche et diversifié de Marrakech</p>
+                </div>
+                
+                <div class="culture-grid">
+                    <div class="culture-card zoom-in">
+                        <div class="culture-icon">
+                            <i class="fas fa-theater-masks"></i>
+                        </div>
+                        <h4>Halqa</h4>
+                        <p>Art du cercle où conteurs et artistes de rue perpétuent la tradition orale sur la place Jemaa el-Fna. Une forme de théâtre populaire datant de plusieurs siècles.</p>
+                    </div>
+                    
+                    <div class="culture-card zoom-in" data-delay="200">
+                        <div class="culture-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h4>Tanjia marrakchia</h4>
+                        <p>Plat traditionnel cuit lentement dans un pot en terre dans les cendres des hammams, spécialité culinaire unique à Marrakech et préparée selon des méthodes ancestrales.</p>
+                    </div>
+                    
+                    <div class="culture-card zoom-in" data-delay="400">
+                        <div class="culture-icon">
+                            <i class="fas fa-film"></i>
+                        </div>
+                        <h4>Festival International du Film</h4>
+                        <p>Événement cinématographique majeur attirant stars et réalisateurs du monde entier, contribuant au rayonnement culturel de la ville rouge.</p>
+                        <span class="period">Décembre</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="ville-gallery">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h3><i class="fas fa-camera"></i> Galerie Photo</h3>
+                    <p>Images capturant la beauté et l'essence de Marrakech</p>
+                </div>
+                
+                <div class="gallery-grid fade-in-up">
+                    <div class="gallery-item" onclick="openLightbox('assets/images/marrakech-gallery1.jpg', 'Coucher de soleil sur Jemaa el-Fna')">
+                        <img src="assets/images/marrakech-gallery1.jpg" alt="Coucher de soleil sur Jemaa el-Fna">
+                        <div class="gallery-overlay">
+                            <span>Coucher de soleil sur Jemaa el-Fna</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openLightbox('assets/images/marrakech-gallery2.jpg', 'Artisan du cuir')">
+                        <img src="assets/images/marrakech-gallery2.jpg" alt="Artisan du cuir">
+                        <div class="gallery-overlay">
+                            <span>Artisan du cuir</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openLightbox('assets/images/marrakech-gallery3.jpg', 'Épices au souk')">
+                        <img src="assets/images/marrakech-gallery3.jpg" alt="Épices au souk">
+                        <div class="gallery-overlay">
+                            <span>Épices au souk</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openLightbox('assets/images/marrakech-gallery4.jpg', 'Jardins de la Ménara')">
+                        <img src="assets/images/marrakech-gallery4.jpg" alt="Jardins de la Ménara">
+                        <div class="gallery-overlay">
+                            <span>Jardins de la Ménara</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openLightbox('assets/images/marrakech-gallery5.jpg', 'Remparts de la ville')">
+                        <img src="assets/images/marrakech-gallery5.jpg" alt="Remparts de la ville">
+                        <div class="gallery-overlay">
+                            <span>Remparts de la ville</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openLightbox('assets/images/marrakech-gallery6.jpg', 'Détails d\'architecture')">
+                        <img src="assets/images/marrakech-gallery6.jpg" alt="Détails d'architecture">
+                        <div class="gallery-overlay">
+                            <span>Détails d'architecture</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="ville-visite">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h3><i class="fas fa-map-marked-alt"></i> Planifiez Votre Visite</h3>
+                    <p>Conseils pratiques pour profiter pleinement de votre séjour à Marrakech</p>
+                </div>
+                
+                <div class="visite-grid">
+                    <div class="visite-card flip-card">
+                        <div class="visite-card-inner">
+                            <div class="visite-card-front">
+                                <i class="fas fa-calendar-alt"></i>
+                                <h4>Meilleure période</h4>
+                            </div>
+                            <div class="visite-card-back">
+                                <p>Mars à mai et octobre à novembre offrent des températures agréables. Évitez l'été (juin à septembre) lorsque la chaleur peut être intense.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="visite-card flip-card">
+                        <div class="visite-card-inner">
+                            <div class="visite-card-front">
+                                <i class="fas fa-walking"></i>
+                                <h4>Comment se déplacer</h4>
+                            </div>
+                            <div class="visite-card-back">
+                                <p>À pied dans la médina, en petit taxi pour les trajets courts, en calèche pour une expérience authentique ou en bus touristique pour les circuits dans la ville.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="visite-card flip-card">
+                        <div class="visite-card-inner">
+                            <div class="visite-card-front">
+                                <i class="fas fa-bed"></i>
+                                <h4>Où loger</h4>
+                            </div>
+                            <div class="visite-card-back">
+                                <p>Riad traditionnel dans la médina pour une expérience authentique, ou hôtel dans le quartier de Guéliz/Hivernage pour plus de confort moderne.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="visite-card flip-card">
+                        <div class="visite-card-inner">
+                            <div class="visite-card-front">
+                                <i class="fas fa-info-circle"></i>
+                                <h4>Conseils pratiques</h4>
+                            </div>
+                            <div class="visite-card-back">
+                                <p>Prévoyez un guide pour la médina, emportez une bouteille d'eau, négociez dans les souks, et profitez d'une journée d'excursion vers l'Atlas ou Essaouira.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="ville-map">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h3><i class="fas fa-map"></i> Carte de Marrakech</h3>
+                </div>
+                <div class="map-container fade-in-up">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108703.59798282278!2d-8.068523958989599!3d31.634624155466365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C%20Maroc!5e0!3m2!1sfr!2sfr!4v1635789123459!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+        
+        <section class="cta-section" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/images/marrakech-cta.jpg');">
+            <div class="container">
+                <div class="cta-content text-center fade-in">
+                    <h3>Prêt à découvrir Marrakech?</h3>
+                    <p>Explorez nos circuits incluant cette magnifique ville impériale</p>
+                    <div class="cta-buttons">
+                        <a href="itineraire.html" class="btn pulse">Voir les itinéraires</a>
+                        <a href="contact.html" class="btn btn-outline">Nous contacter</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Lightbox pour les images de la galerie -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="lightbox-caption"></div>
+    </div>
+    
+    <!-- Popups pour les attractions -->
+    <div id="popup-jemaa" class="popup">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <h3>Place Jemaa el-Fna</h3>
+            <img src="assets/images/marrakech-jemaa.jpg" alt="Place Jemaa el-Fna">
+            <p>Véritable théâtre à ciel ouvert, cette place emblématique de Marrakech est classée par l'UNESCO au patrimoine culturel immatériel de l'humanité depuis 2001. Le jour, la place accueille des vendeurs d'eau traditionnels, des charmeurs de serpents et des montreurs de singes.</p>
+            <p>À la tombée de la nuit, elle se transforme en un immense restaurant en plein air avec des dizaines de stands de nourriture. Les conteurs, musiciens et artistes de rue investissent l'espace pour le plaisir des visiteurs. La place est entourée de cafés terrasses d'où l'on peut observer l'animation.</p>
+            <p><strong>Horaires :</strong> Animée toute la journée, particulièrement au coucher du soleil et en soirée<br>
+            <strong>Conseil :</strong> Profitez d'une vue panoramique depuis l'une des terrasses de café environnantes</p>
+        </div>
+    </div>
+    
+    <div id="popup-majorelle" class="popup">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <h3>Jardin Majorelle</h3>
+            <img src="assets/images/marrakech-majorelle.jpg" alt="Jardin Majorelle">
+            <p>Créé par le peintre français Jacques Majorelle en 1931, ce jardin botanique est un havre de paix dans la ville animée. Après plusieurs années d'abandon, il fut racheté et restauré par Yves Saint Laurent et Pierre Bergé en 1980.</p>
+            <p>Le jardin est célèbre pour son bleu cobalt intense (appelé désormais "bleu Majorelle"), ses collections de cactus et de plantes exotiques, ainsi que son musée berbère. Les cendres d'Yves Saint Laurent y ont été dispersées après son décès, et un mémorial lui est dédié dans le jardin.</p>
+            <p><strong>Horaires :</strong> 8h-18h tous les jours (dernière entrée à 17h30)<br>
+            <strong>Conseil :</strong> Visitez tôt le matin pour éviter les foules et profiter du calme</p>
+        </div>
+    </div>
+    
+    <div id="popup-bahia" class="popup">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <h3>Palais Bahia</h3>
+            <img src="assets/images/marrakech-bahia.jpg" alt="Palais Bahia">
+            <p>Ce palais du XIXe siècle, dont le nom signifie "brillance" ou "beauté", fut construit pour Si Moussa, grand vizir du sultan, puis agrandi par son fils Ahmed ben Moussa. Il comprend 150 pièces réparties sur 8 hectares, avec des jardins, des cours intérieures et des salons richement décorés.</p>
+            <p>Le palais est un chef-d'œuvre de l'architecture marocaine traditionnelle avec ses zelliges (mosaïques), ses plafonds en bois de cèdre peints, ses stucs ciselés et ses sols en marbre. Chaque pièce présente une décoration différente et témoigne du raffinement de l'artisanat marocain.</p>
+            <p><strong>Horaires :</strong> 9h-17h tous les jours<br>
+            <strong>Conseil :</strong> Engagez un guide pour comprendre l'histoire et les détails architecturaux du palais</p>
+        </div>
+    </div>
+    
+    <div id="popup-medina" class="popup">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <h3>Médina de Marrakech</h3>
+            <img src="assets/images/marrakech-medina.jpg" alt="Médina de Marrakech">
+            <p>Classée au patrimoine mondial de l'UNESCO, la médina de Marrakech est l'une des plus grandes médinas traditionnelles du Maroc. Fondée au XIe siècle, elle est entourée de 19 km de remparts ocre et compte 18 portes monumentales (bab).</p>
+            <p>Les souks (marchés traditionnels) sont organisés par spécialités : épices, cuir, métaux, tapis, poterie, etc. Chaque quartier a sa propre atmosphère et son artisanat particulier. Perdue dans les ruelles, on découvre des fontaines, des hammams, des foundouks (caravansérails) et des médersas (écoles coraniques).</p>
+            <p><strong>Horaires :</strong> Les boutiques sont généralement ouvertes de 9h à 19h, fermées le vendredi pour la prière<br>
+            <strong>Conseil :</strong> Pour ne pas vous perdre, repérez quelques points de repère ou utilisez une application GPS</p>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Villes Impériales du Maroc - Agence de voyage</p>
+            <div class="social-links">
+                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="dist/main.js" type="module"></script>
+    <script src="dist/ville-detail.js" type="module"></script>
+</body>
+</html>

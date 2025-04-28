@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Partenaires - Villes Impériales du Maroc</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Villes Impériales du Maroc</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="villes.html">Villes</a></li>
+                <li><a href="itineraire.html">Itinéraires</a></li>
+                <li><a href="partenaires.html" class="active">Partenaires</a></li>
+                <li><a href="marketing.html">Offres</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="partenaires-header">
+            <h2>Nos Partenaires</h2>
+            <p>Découvrez notre réseau de partenaires de confiance qui contribuent à rendre votre expérience exceptionnelle</p>
+        </section>
+        
+        <section class="partenaires-categories">
+            <div class="container">
+                <div class="category-tabs">
+                    <button class="tab-btn active" data-category="all">Tous</button>
+                    <button class="tab-btn" data-category="hotels">Hôtels</button>
+                    <button class="tab-btn" data-category="restaurants">Restaurants</button>
+                    <button class="tab-btn" data-category="guides">Guides locaux</button>
+                    <button class="tab-btn" data-category="transport">Transport</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="partenaires-container">
+            <!-- Le contenu sera généré dynamiquement par partenaires.ts -->
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Villes Impériales du Maroc - Agence de voyage</p>
+            <div class="social-links">
+                <a href="#" class="social">Facebook</a>
+                <a href="#" class="social">Instagram</a>
+                <a href="#" class="social">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="dist/main.js" type="module"></script>
+    <script src="dist/partenaires.js" type="module"></script>
+</body>
+</html>

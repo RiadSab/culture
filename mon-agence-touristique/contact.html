@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Villes Impériales du Maroc</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Villes Impériales du Maroc</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="villes.html">Villes</a></li>
+                <li><a href="itineraire.html">Itinéraires</a></li>
+                <li><a href="partenaires.html">Partenaires</a></li>
+                <li><a href="marketing.html">Offres</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="contact-hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('assets/images/contact-hero.jpg');">
+            <div class="container">
+                <h2 class="slide-in-left">Contactez-nous</h2>
+                <p class="slide-in-right">Nous sommes à votre disposition pour organiser votre voyage au Maroc</p>
+            </div>
+        </section>
+        
+        <section class="contact-info">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h3><i class="fas fa-paper-plane"></i> Nous contacter</h3>
+                    <p>Notre équipe est à votre disposition pour répondre à toutes vos questions</p>
+                </div>
+                
+                <div class="contact-grid">
+                    <div class="contact-form-container fade-in-up">
+                        <h4>Envoyez-nous un message</h4>
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Nom complet</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Adresse e-mail</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Sujet</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="6" required></textarea>
+                            </div>
+                            <button type="submit" class="btn">Envoyer le message</button>
+                        </form>
+                    </div>
+                    
+                    <div class="contact-details fade-in-up" data-delay="200">
+                        <h4>Informations de contact</h4>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h5>Adresse</h5>
+                                <p>123 Avenue Mohammed V, Guéliz<br>40000 Marrakech, Maroc</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h5>Téléphone</h5>
+                                <p>+212 5 24 XX XX XX</p>
+                                <p>+212 6 61 XX XX XX (WhatsApp)</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h5>Email</h5>
+                                <p>info@villes-imperiales.ma</p>
+                                <p>reservations@villes-imperiales.ma</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h5>Horaires d'ouverture</h5>
+                                <p>Lundi - Vendredi: 9h - 18h</p>
+                                <p>Samedi: 9h - 13h</p>
+                                <p>Dimanche: Fermé</p>
+                            </div>
+                        </div>
+                        <div class="social-contact">
+                            <h5>Suivez-nous</h5>
+                            <div class="social-icons">
+                                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="faq-section">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h3><i class="fas fa-question-circle"></i> Questions fréquentes</h3>
+                    <p>Trouvez rapidement des réponses à vos questions</p>
+                </div>
+                
+                <div class="accordion fade-in-up">
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h4>Quand est la meilleure période pour visiter les villes impériales?</h4>
+                            <span class="accordion-icon">+</span>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Le printemps (mars à mai) et l'automne (septembre à novembre) offrent les conditions climatiques les plus agréables pour visiter les villes impériales du Maroc. Les températures sont douces et le climat est ensoleillé sans être trop chaud. L'été peut être très chaud, particulièrement à Marrakech et Fès, tandis que l'hiver peut être frais et pluvieux, surtout à Rabat et Meknès.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h4>Faut-il un visa pour visiter le Maroc?</h4>
+                            <span class="accordion-icon">+</span>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Les ressortissants de nombreux pays, dont la France, la Belgique, la Suisse et le Canada, n'ont pas besoin de visa pour séjourner au Maroc jusqu'à 90 jours. Un passeport valide pendant au moins 6 mois après la date d'entrée est généralement requis. Nous vous recommandons de vérifier les conditions exactes auprès de l'ambassade ou du consulat marocain de votre pays avant votre départ.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h4>Comment se déplacer entre les villes impériales?</h4>
+                            <span class="accordion-icon">+</span>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Plusieurs options s'offrent à vous :</p>
+                            <ul>
+                                <li>Train : le réseau ferroviaire ONCF relie Rabat, Meknès et Fès avec un excellent niveau de confort.</li>
+                                <li>Bus : des compagnies comme CTM et Supratours proposent des liaisons régulières entre toutes les villes impériales.</li>
+                                <li>Voiture de location : pour plus de flexibilité, la location d'une voiture est une bonne option.</li>
+                                <li>Grand taxi : solution économique pour les trajets courts.</li>
+                                <li>Circuit organisé : notre agence propose des circuits incluant le transport entre les villes.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h4>Quelle est la monnaie utilisée au Maroc?</h4>
+                            <span class="accordion-icon">+</span>
+                        </div>
+                        <div class="accordion-content">
+                            <p>La monnaie utilisée au Maroc est le dirham marocain (MAD). Vous pouvez changer votre argent à l'aéroport, dans les banques ou les bureaux de change. Les cartes de crédit sont acceptées dans les hôtels, restaurants et boutiques modernes, mais il est conseillé d'avoir toujours un peu d'argent liquide, surtout dans les souks et les petits commerces.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h4>Est-il possible de personnaliser un circuit?</h4>
+                            <span class="accordion-icon">+</span>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Absolument! Nous proposons des circuits personnalisés adaptés à vos préférences, à votre budget et à la durée de votre séjour. Contactez notre équipe pour discuter de vos envies et recevoir une proposition sur mesure.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="map-section">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h3><i class="fas fa-map-marked-alt"></i> Notre agence</h3>
+                </div>
+                <div class="map-container fade-in-up">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3397.0780272331444!2d-8.013220785100058!3d31.64093674831461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafee9465ae0bf7%3A0x27332ef8eddacc!2sAv.%20Mohammed%20V%2C%20Marrakech!5e0!3m2!1sfr!2sma!4v1635800123456!5m2!1sfr!2sma" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Villes Impériales du Maroc - Agence de voyage</p>
+            <div class="social-links">
+                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="dist/main.js" type="module"></script>
+    <script src="dist/contact.js" type="module"></script>
+</body>
+</html>

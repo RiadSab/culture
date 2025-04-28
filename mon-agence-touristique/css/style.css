@@ -1,0 +1,1412 @@
+/* Variables globales */
+:root {
+  --primary-color: #c0392b;
+  --secondary-color: #2c3e50;
+  --accent-color: #f39c12;
+  --light-color: #ecf0f1;
+  --dark-color: #2c3e50;
+  --text-color: #333;
+  --max-width: 1200px;
+  --border-radius: 5px;
+  --box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Reset et base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: #f8f9fa;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Header et Navigation */
+header {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 1rem 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.logo h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: white;
+  padding: 0.5rem 0;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: var(--accent-color);
+}
+
+nav ul li a.active {
+  color: var(--accent-color);
+}
+
+nav ul li a.active::after {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--accent-color);
+}
+
+/* Hero Section */
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../assets/images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content {
+  max-width: 800px;
+  padding: 2rem;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.8rem 2rem;
+  border-radius: var(--border-radius);
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #a5281b;
+  transform: translateY(-2px);
+}
+
+/* Intro Section */
+.intro {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.intro h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--secondary-color);
+}
+
+.intro p {
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  font-size: 1.1rem;
+}
+
+.cities-preview {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.city-card {
+  background-color: white;
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  box-shadow: var(--box-shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.city-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.city-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+/* Pages Sections */
+.ville-header, 
+.itineraire-header, 
+.partenaires-header, 
+.marketing-header {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.ville-header h2, 
+.itineraire-header h2, 
+.partenaires-header h2, 
+.marketing-header h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+section {
+  padding: 3rem 0;
+}
+
+section h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+/* Cities Navigation */
+.cities-nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.cities-nav ul li {
+  margin: 0.5rem;
+}
+
+.city-link {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  background-color: white;
+  color: var(--secondary-color);
+  border-radius: 30px;
+  border: 2px solid var(--secondary-color);
+  transition: all 0.3s ease;
+}
+
+.city-link:hover, 
+.city-link.active {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+/* Ville Details */
+.ville-details {
+  background-color: white;
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  margin-bottom: 3rem;
+  box-shadow: var(--box-shadow);
+}
+
+.ville-details h2 {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+}
+
+.ville-description {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.ville-histoire, 
+.ville-sites, 
+.ville-traditions {
+  margin-bottom: 2.5rem;
+}
+
+.ville-histoire h3, 
+.ville-sites h3, 
+.ville-traditions h3 {
+  font-size: 1.8rem;
+  color: var(--secondary-color);
+  margin-bottom: 1.5rem;
+}
+
+.sites-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.site-card {
+  background-color: #f9f9f9;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--box-shadow);
+}
+
+.site-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.site-card h4 {
+  font-size: 1.2rem;
+  padding: 1rem;
+  color: var(--primary-color);
+}
+
+.site-card p {
+  padding: 0 1rem 1rem;
+  font-size: 0.95rem;
+}
+
+.traditions-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.tradition-item {
+  background-color: #f9f9f9;
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+  box-shadow: var(--box-shadow);
+}
+
+.tradition-item h4 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+/* Itinéraire Section */
+.itineraire-filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.filter-btn {
+  padding: 0.5rem 1.5rem;
+  background-color: white;
+  color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+  border-radius: 30px;
+  margin: 0.3rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover, 
+.filter-btn.active {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.itineraire-card {
+  background-color: white;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  margin-bottom: 2rem;
+  box-shadow: var(--box-shadow);
+}
+
+.itineraire-header {
+  position: relative;
+}
+
+.itineraire-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.itineraire-header h3 {
+  font-size: 1.8rem;
+  padding: 1rem;
+  color: var(--primary-color);
+}
+
+.itineraire-meta {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem 1rem;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.itineraire-content {
+  padding: 1.5rem;
+}
+
+.itineraire-description {
+  margin-bottom: 1.5rem;
+}
+
+.itineraire-jours h4, 
+.itineraire-prix h4 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: var(--secondary-color);
+}
+
+.jour-item {
+  margin-bottom: 1rem;
+  border: 1px solid #eee;
+  border-radius: var(--border-radius);
+}
+
+.jour-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.jour-header h5 {
+  font-size: 1.1rem;
+  color: var(--secondary-color);
+}
+
+.toggle-jour {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+.jour-details {
+  padding: 1rem;
+  display: none;
+}
+
+.jour-details.open {
+  display: block;
+}
+
+.jour-details h6 {
+  font-size: 1rem;
+  margin: 1rem 0 0.5rem;
+  color: var(--secondary-color);
+}
+
+.jour-details ul {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  list-style-type: disc;
+}
+
+.prix-options {
+  display: flex;
+  justify-content: space-around;
+  margin: 1.5rem 0;
+}
+
+.prix-option {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: var(--border-radius);
+  min-width: 150px;
+}
+
+.prix-option h5 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--secondary-color);
+}
+
+.prix {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.prix-option.premium {
+  background-color: #f4ecdd;
+}
+
+.reserver-btn {
+  display: block;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Partenaires Section */
+.category-tabs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.tab-btn {
+  padding: 0.5rem 1.5rem;
+  background: none;
+  border: none;
+  margin: 0.3rem 0.8rem;
+  cursor: pointer;
+  position: relative;
+  font-size: 1rem;
+  color: var(--secondary-color);
+}
+
+.tab-btn::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--primary-color);
+  transition: width 0.3s ease;
+}
+
+.tab-btn:hover::after,
+.tab-btn.active::after {
+  width: 100%;
+}
+
+.tab-btn.active {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.partenaires-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.partenaire-card {
+  background-color: white;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--box-shadow);
+}
+
+.partenaire-header {
+  position: relative;
+  padding: 1rem;
+  background-color: #f9f9f9;
+}
+
+.type-icon {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.partenaire-header h3 {
+  display: inline;
+  font-size: 1.3rem;
+  color: var(--primary-color);
+}
+
+.ville-badge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+
+.partenaire-content {
+  padding: 1.5rem;
+}
+
+.partenaire-image {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 1rem;
+}
+
+.partenaire-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.description {
+  margin-bottom: 1.5rem;
+}
+
+.contact-info {
+  margin-bottom: 1.5rem;
+}
+
+.contact-info p {
+  margin-bottom: 0.5rem;
+}
+
+.avantages, .tarif-special {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  margin-top: 1rem;
+}
+
+.avantages h4, .besoins h4, .offres-adaptees h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--secondary-color);
+}
+
+.avantages ul {
+  margin-left: 1.5rem;
+  list-style-type: disc;
+}
+
+/* Newsletter Section */
+.newsletter {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 3rem 0;
+}
+
+.newsletter h3 {
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input[type="email"] {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: var(--border-radius);
+  border: none;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.checkbox-group input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+/* Footer */
+footer {
+  background-color: var(--dark-color);
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.social-links {
+  margin-top: 1rem;
+}
+
+.social {
+  color: white;
+  margin: 0 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.social:hover {
+  color: var(--accent-color);
+}
+
+/* Styles pour les pages de détail des villes */
+.ville-hero {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.ville-hero h2 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.ville-hero p {
+  font-size: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.ville-intro {
+  padding: 4rem 0;
+  background-color: white;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section-header h3 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.section-header p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  color: var(--dark-color);
+}
+
+.light-text {
+  color: white;
+}
+
+.light-text h3 {
+  color: white;
+}
+
+.ville-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.ville-stat {
+  background-color: #f9f9f9;
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  text-align: center;
+  box-shadow: var(--box-shadow);
+  transition: transform 0.3s ease;
+}
+
+.ville-stat:hover {
+  transform: translateY(-5px);
+}
+
+.ville-stat i {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.ville-stat h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: var(--secondary-color);
+}
+
+.ville-stat p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--dark-color);
+}
+
+.ville-histoire {
+  padding: 4rem 0;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.histoire-content {
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.histoire-content p {
+  margin-bottom: 1.5rem;
+}
+
+.timeline {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 20px;
+  height: 100%;
+  width: 4px;
+  background: var(--primary-color);
+}
+
+.timeline-item {
+  margin-bottom: 2rem;
+  position: relative;
+  padding-left: 50px;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: 18px;
+  top: 5px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+  border: 3px solid var(--primary-color);
+}
+
+.timeline-date {
+  font-weight: bold;
+  color: var(--accent-color);
+  margin-bottom: 0.3rem;
+}
+
+.timeline-content {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: var(--border-radius);
+}
+
+.ville-attractions {
+  padding: 4rem 0;
+  background-color: white;
+}
+
+.attractions-slider {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.attraction-card {
+  background-color: #f9f9f9;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--box-shadow);
+}
+
+.attraction-img {
+  height: 200px;
+  overflow: hidden;
+}
+
+.attraction-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.attraction-card:hover .attraction-img img {
+  transform: scale(1.1);
+}
+
+.attraction-content {
+  padding: 1.5rem;
+}
+
+.attraction-content h4 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.btn-small {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: var(--border-radius);
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.btn-small:hover {
+  background-color: #a5281b;
+  transform: translateY(-2px);
+}
+
+.ville-culture {
+  padding: 4rem 0;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.culture-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.culture-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.culture-card:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-5px);
+}
+
+.culture-icon {
+  font-size: 2.5rem;
+  color: var(--accent-color);
+  margin-bottom: 1rem;
+}
+
+.culture-card h4 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.period {
+  display: inline-block;
+  background-color: var(--accent-color);
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+.ville-gallery {
+  padding: 4rem 0;
+  background-color: white;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.gallery-item {
+  height: 200px;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ville-visite {
+  padding: 4rem 0;
+  background-color: #f9f9f9;
+}
+
+.visite-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.visite-card {
+  height: 200px;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--box-shadow);
+}
+
+.ville-map {
+  padding: 4rem 0;
+}
+
+.map-container {
+  height: 450px;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--box-shadow);
+}
+
+.cta-section {
+  padding: 6rem 0;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.cta-content h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.cta-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.btn-outline:hover {
+  background-color: white;
+  color: var(--primary-color);
+}
+
+/* Styles pour le responsive */
+@media (max-width: 768px) {
+  .ville-hero h2 {
+    font-size: 2.5rem;
+  }
+  
+  .ville-hero p {
+    font-size: 1.1rem;
+  }
+  
+  .timeline::before {
+    left: 15px;
+  }
+  
+  .timeline-item {
+    padding-left: 40px;
+  }
+  
+  .timeline-dot {
+    left: 13px;
+  }
+  
+  .cta-content h3 {
+    font-size: 2rem;
+  }
+}
+
+/* Animation de base pour la transition de page */
+body {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+body.loaded {
+  opacity: 1;
+}
+
+/* Styles pour les cartes de villes dans villes.html */
+.villes-cards {
+  padding: 4rem 0;
+  background-color: white;
+}
+
+.villes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.ville-card {
+  background-color: white;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--box-shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ville-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.ville-card-image {
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+
+.ville-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.ville-card:hover .ville-card-image img {
+  transform: scale(1.1);
+}
+
+.ville-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.ville-card:hover .ville-card-overlay {
+  opacity: 1;
+}
+
+.ville-card-content {
+  padding: 1.5rem;
+}
+
+.ville-card-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.link-arrow {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 1rem;
+  color: var(--secondary-color);
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.link-arrow i {
+  margin-left: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.link-arrow:hover {
+  color: var(--primary-color);
+}
+
+.link-arrow:hover i {
+  transform: translateX(5px);
+}
+
+.villes-map {
+  padding: 4rem 0;
+  background-color: #f9f9f9;
+}
+
+/* Styles pour la page de contact */
+.contact-hero {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.contact-hero h2 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.contact-hero p {
+  font-size: 1.3rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.contact-info {
+  padding: 4rem 0;
+  background-color: white;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 3rem;
+}
+
+.contact-form-container,
+.contact-details {
+  background-color: #f9f9f9;
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  box-shadow: var(--box-shadow);
+}
+
+.contact-form-container h4,
+.contact-details h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 0.5rem;
+}
+
+.contact-form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius);
+  font-family: inherit;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--primary-color);
+  outline: none;
+}
+
+.contact-form .btn {
+  margin-top: 1rem;
+}
+
+.contact-method {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.contact-method i {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin-right: 1rem;
+  margin-top: 0.3rem;
+}
+
+.contact-method h5 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--secondary-color);
+}
+
+.social-contact h5 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: var(--secondary-color);
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--secondary-color);
+  color: white;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: var(--primary-color);
+  transform: translateY(-3px);
+}
+
+/* Style pour le message de confirmation */
+.confirmation-message {
+  background-color: #f0f9f4;
+  border-left: 4px solid var(--success-color);
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: var(--border-radius);
+  text-align: center;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.confirmation-content i {
+  font-size: 3rem;
+  color: var(--success-color);
+  margin-bottom: 1rem;
+}
+
+.confirmation-content h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--success-color);
+}
+
+/* Section FAQ */
+.faq-section {
+  padding: 4rem 0;
+  background-color: #f9f9f9;
+}
+
+.accordion {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.accordion-item {
+  background-color: white;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  margin-bottom: 1rem;
+  box-shadow: var(--box-shadow);
+}
+
+.accordion-header {
+  padding: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-header:hover {
+  background-color: #f0f0f0;
+}
+
+.accordion-header h4 {
+  font-size: 1.1rem;
+  margin: 0;
+  color: var(--secondary-color);
+}
+
+.accordion-icon {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.accordion-content {
+  padding: 0 1.2rem;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.accordion-content p,
+.accordion-content ul {
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.3rem;
+}
+
+.accordion-content ul {
+  margin-left: 1.5rem;
+  list-style-type: disc;
+}
+
+.map-section {
+  padding: 4rem 0;
+}
+
+/* Media queries pour le responsive */
+@media (max-width: 992px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .contact-details {
+    order: -1;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-hero h2 {
+    font-size: 2.5rem;
+  }
+  
+  .contact-hero p {
+    font-size: 1.1rem;
+  }
+  
+  .accordion-header h4 {
+    font-size: 1rem;
+  }
+}

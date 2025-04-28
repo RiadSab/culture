@@ -1,0 +1,117 @@
+{
+  "promotions": [
+    {
+      "id": "promo-ete",
+      "titre": "Offre Spéciale Été",
+      "description": "Profitez de tarifs exceptionnels sur nos circuits des villes impériales pendant la saison estivale. Une occasion unique de découvrir le Maroc dans des conditions privilégiées avec des prix réduits et des avantages exclusifs.",
+      "dateDebut": "2023-06-15",
+      "dateFin": "2023-09-15",
+      "reduction": "-20%",
+      "conditionsEligibilite": [
+        "Réservation avant le 31 mai 2023",
+        "Valable pour tous les circuits de 5 jours et plus",
+        "Non cumulable avec d'autres offres"
+      ],
+      "imageUrl": "assets/images/promo-ete.jpg",
+      "codePromo": "IMPERIAL-ETE23"
+    },
+    {
+      "id": "promo-couple",
+      "titre": "Évasion en Duo",
+      "description": "Offre spéciale pour les couples souhaitant découvrir le charme des villes impériales marocaines. Hébergement en riads de charme, dîners romantiques et expériences exclusives pour deux.",
+      "dateDebut": "2023-02-01",
+      "dateFin": "2023-12-15",
+      "reduction": "2ème personne à -50%",
+      "conditionsEligibilite": [
+        "Réservation 45 jours avant le départ",
+        "Valable uniquement pour les circuits de catégorie premium",
+        "Hors périodes de vacances scolaires"
+      ],
+      "imageUrl": "assets/images/promo-couple.jpg",
+      "codePromo": "DUOIMPERIAL"
+    },
+    {
+      "id": "promo-derniere-minute",
+      "titre": "Départs Immédiats",
+      "description": "Offres de dernière minute sur nos circuits des villes impériales avec départs garantis. Idéal pour les voyageurs spontanés souhaitant partir rapidement à la découverte du Maroc.",
+      "dateDebut": "2023-01-01",
+      "dateFin": "2023-12-31",
+      "reduction": "Jusqu'à -30%",
+      "conditionsEligibilite": [
+        "Réservation entre 7 et 14 jours avant le départ",
+        "Sous réserve de disponibilité",
+        "Paiement intégral à la réservation"
+      ],
+      "imageUrl": "assets/images/promo-lastminute.jpg",
+      "codePromo": "LAST-IMPERIAL"
+    }
+  ],
+  "cibles": [
+    {
+      "segment": "Couples 45-65 ans",
+      "description": "Couples matures à la recherche d'un voyage culturel enrichissant avec un niveau de confort élevé. Ils s'intéressent particulièrement à l'histoire, l'architecture et la gastronomie.",
+      "caracteristiques": [
+        "Budget confortable (1500-3000€ par personne)",
+        "Recherchent l'authenticité et le confort",
+        "Niveau d'éducation élevé",
+        "Voyageurs expérimentés"
+      ],
+      "besoins": [
+        "Découverte culturelle approfondie",
+        "Hébergements de charme ou haut de gamme",
+        "Rythme de voyage modéré",
+        "Guides experts et cultivés"
+      ],
+      "offresAdaptees": [
+        "Circuit 'Grand Tour Impérial' en catégorie premium",
+        "Circuit 'Immersion Impériale' avec expériences gastronomiques",
+        "Offre 'Évasion en Duo' avec riads de charme"
+      ],
+      "imageUrl": "assets/images/cible-couples.jpg"
+    },
+    {
+      "segment": "Jeunes professionnels urbains",
+      "description": "Jeunes actifs de 28-40 ans, souvent en couple, disposant de peu de temps mais d'un bon budget, à la recherche d'expériences authentiques et photogéniques pour les réseaux sociaux.",
+      "caracteristiques": [
+        "Temps limité (1 semaine maximum)",
+        "Budget moyen à élevé",
+        "Technophiles et connectés",
+        "Recherchent l'équilibre entre culture et détente"
+      ],
+      "besoins": [
+        "Circuits courts mais intenses",
+        "Expériences locales authentiques",
+        "Moments 'instagrammables'",
+        "Hébergements design ou de caractère"
+      ],
+      "offresAdaptees": [
+        "Circuit 'Impérial Express' en catégorie premium",
+        "'City Break Marrakech' avec extension à Fès",
+        "Promotions 'Dernière Minute' pour les départs spontanés"
+      ],
+      "imageUrl": "assets/images/cible-jeunes.jpg"
+    },
+    {
+      "segment": "Groupes d'amis seniors",
+      "description": "Groupes de 4 à 8 amis retraités, disposant de temps et d'un budget confortable, souhaitant voyager ensemble pour partager une expérience culturelle.",
+      "caracteristiques": [
+        "Disponibilité temporelle étendue",
+        "Budget moyen à élevé",
+        "Grand intérêt pour l'histoire et la culture",
+        "Préfèrent voyager à leur rythme"
+      ],
+      "besoins": [
+        "Circuits adaptables et personnalisables",
+        "Confort et accessibilité",
+        "Rythme de voyage modéré avec temps libre",
+        "Guide permanent à disposition"
+      ],
+      "offresAdaptees": [
+        "Circuit 'Immersion Impériale' adapté aux groupes",
+        "Circuits sur mesure 'Villes Impériales à votre rythme'",
+        "Offres spéciales groupe avec remises dégressives"
+      ],
+      "imageUrl": "assets/images/cible-seniors.jpg"
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+[
+  {
+    "id": "hotel-rabat1",
+    "nom": "La Tour Hassan Palace",
+    "type": "hotels",
+    "description": "Hôtel de luxe 5 étoiles situé au cœur de Rabat, alliant élégance marocaine et confort moderne. L'établissement dispose de chambres spacieuses, d'un spa, de plusieurs restaurants et d'un service impeccable.",
+    "ville": "Rabat",
+    "adresse": "26 Rue Chellah, Hassan, Rabat",
+    "contact": {
+      "telephone": "+212 5377-23421",
+      "email": "reservations@latourhassan.com",
+      "site": "https://www.latourhassan.com"
+    },
+    "imageUrl": "assets/images/hotel-rabat1.jpg",
+    "avantages": [
+      "Petit-déjeuner offert pour les clients de notre agence",
+      "Surclassement selon disponibilité",
+      "Transfert gratuit depuis l'aéroport"
+    ],
+    "tarifSpecial": "À partir de 150€ par nuit en chambre double (tarif négocié)"
+  },
+  {
+    "id": "riad-fes1",
+    "nom": "Riad Fes Maya Suite & Spa",
+    "type": "hotels",
+    "description": "Magnifique riad traditionnel situé dans la médina de Fès, offrant une expérience authentique dans un cadre raffiné. Chaque suite est décorée avec soin, alliant artisanat marocain et commodités contemporaines.",
+    "ville": "Fès",
+    "adresse": "12 Derb El Miter, Fès Médina",
+    "contact": {
+      "telephone": "+212 5356-38952",
+      "email": "contact@riadfesmaya.com",
+      "site": "https://www.riadfesmaya.com"
+    },
+    "imageUrl": "assets/images/riad-fes1.jpg",
+    "avantages": [
+      "Accueil traditionnel avec thé à la menthe et pâtisseries",
+      "Un dîner offert pour tout séjour de 3 nuits et plus",
+      "Visite guidée de la médina organisée par le riad"
+    ],
+    "tarifSpecial": "À partir de 120€ par nuit en suite junior (tarif négocié)"
+  },
+  {
+    "id": "hotel-marrakech1",
+    "nom": "Les Jardins de la Koutoubia",
+    "type": "hotels",
+    "description": "Hôtel 5 étoiles idéalement situé au cœur de Marrakech, à quelques pas de la célèbre place Jemaa el-Fna. Cet établissement de prestige offre une piscine, un spa luxueux, trois restaurants et un service attentionné.",
+    "ville": "Marrakech",
+    "adresse": "26 Rue de la Koutoubia, Médina, Marrakech",
+    "contact": {
+      "telephone": "+212 5244-38730",
+      "email": "reservation@lesjardinsdelakoutoubia.com",
+      "site": "https://www.lesjardinsdelakoutoubia.com"
+    },
+    "imageUrl": "assets/images/hotel-marrakech1.jpg",
+    "avantages": [
+      "Cocktail de bienvenue offert",
+      "Accès gratuit au spa (hors soins)",
+      "Réduction de 15% dans les restaurants de l'hôtel"
+    ],
+    "tarifSpecial": "À partir de 180€ par nuit en chambre supérieure (tarif négocié)"
+  },
+  {
+    "id": "riad-meknes1",
+    "nom": "Riad Yacout",
+    "type": "hotels",
+    "description": "Riad de charme situé dans la médina de Meknès, dans une ancienne demeure restaurée avec goût. L'établissement dispose d'un patio central avec fontaine, d'une terrasse panoramique et de chambres décorées dans le style traditionnel marocain.",
+    "ville": "Meknès",
+    "adresse": "35 Derb Hammam Jdid, Meknès Médina",
+    "contact": {
+      "telephone": "+212 5355-57860",
+      "email": "info@riadyacout.com",
+      "site": "https://www.riadyacout.com"
+    },
+    "imageUrl": "assets/images/riad-meknes1.jpg",
+    "avantages": [
+      "Hammam traditionnel offert une fois par séjour",
+      "Cours de cuisine marocaine à tarif préférentiel",
+      "Thé à la menthe et pâtisseries offertes chaque après-midi"
+    ]
+  },
+  {
+    "id": "resto-fes1",
+    "nom": "Dar Hatim",
+    "type": "restaurants",
+    "description": "Restaurant familial situé dans une maison traditionnelle de la médina de Fès, proposant une cuisine fassi authentique préparée selon des recettes transmises de génération en génération.",
+    "ville": "Fès",
+    "adresse": "19 Derb Ezaouia Foukharine, Médina de Fès",
+    "contact": {
+      "telephone": "+212 5356-34609",
+      "email": "reservation@darhatim.com"
+    },
+    "imageUrl": "assets/images/resto-fes1.jpg",
+    "avantages": [
+      "Apéritif maison offert",
+      "Réduction de 10% sur l'addition"
+    ],
+    "tarifSpecial": "Menu découverte à 25€ par personne (exclusif pour nos clients)"
+  },
+  {
+    "id": "resto-marrakech1",
+    "nom": "Le Comptoir Darna",
+    "type": "restaurants",
+    "description": "Restaurant-lounge emblématique de Marrakech, offrant une cuisine marocaine et internationale dans un cadre élégant. En soirée, l'ambiance s'anime avec des spectacles de danse orientale.",
+    "ville": "Marrakech",
+    "adresse": "Avenue Echouhada, Hivernage, Marrakech",
+    "contact": {
+      "telephone": "+212 5244-37702",
+      "email": "reservations@comptoirdarna.com",
+      "site": "https://www.comptoirdarna.com"
+    },
+    "imageUrl": "assets/images/resto-marrakech1.jpg",
+    "avantages": [
+      "Coupe de champagne offerte",
+      "Places privilégiées pour le spectacle",
+      "Service de voiturier gratuit"
+    ]
+  },
+  {
+    "id": "guide-fes1",
+    "nom": "Mohammed Benjelloun",
+    "type": "guides",
+    "description": "Guide officiel certifié, spécialiste de Fès où il est né et a grandi. Mohammed connaît chaque recoin de la médina et partage avec passion l'histoire, la culture et les traditions de sa ville natale.",
+    "ville": "Fès",
+    "adresse": "Fès, Maroc",
+    "contact": {
+      "telephone": "+212 6612-34567",
+      "email": "mohammed.guide@gmail.com"
+    },
+    "imageUrl": "assets/images/guide-fes1.jpg",
+    "avantages": [
+      "Visite de boutiques et ateliers d'artisans hors des circuits touristiques",
+      "Adaptation de la visite selon vos centres d'intérêt"
+    ],
+    "tarifSpecial": "Journée complète à 90€ pour 1-4 personnes (tarif négocié)"
+  },
+  {
+    "id": "guide-marrakech1",
+    "nom": "Fatima Zahra El Mansouri",
+    "type": "guides",
+    "description": "Guide culturelle spécialiste de Marrakech, Fatima Zahra est diplômée en histoire de l'art islamique. Elle propose des visites thématiques axées sur l'architecture, l'art et l'artisanat de la ville rouge.",
+    "ville": "Marrakech",
+    "adresse": "Marrakech, Maroc",
+    "contact": {
+      "telephone": "+212 6687-65432",
+      "email": "fatima.guide@gmail.com"
+    },
+    "imageUrl": "assets/images/guide-marrakech1.jpg",
+    "avantages": [
+      "Visite personnalisée selon vos centres d'intérêt",
+      "Accès à des lieux habituellement fermés au public"
+    ]
+  },
+  {
+    "id": "transport1",
+    "nom": "Morocco Travel Cars",
+    "type": "transport",
+    "description": "Société de location de voitures et de transport privé couvrant l'ensemble du Maroc. Flotte de véhicules récents et bien entretenus, chauffeurs professionnels parlant plusieurs langues.",
+    "ville": "Rabat",
+    "adresse": "45 Avenue Mohammed V, Rabat",
+    "contact": {
+      "telephone": "+212 5378-65432",
+      "email": "info@moroccotravel.com",
+      "site": "https://www.moroccotravel.com"
+    },
+    "imageUrl": "assets/images/transport1.jpg",
+    "avantages": [
+      "Kilométrage illimité",
+      "Assurance tous risques incluse",
+      "WiFi gratuit à bord des véhicules avec chauffeur"
+    ],
+    "tarifSpecial": "Réduction de 15% sur tous les services de location et transport"
+  },
+  {
+    "id": "transport2",
+    "nom": "Imperial Transfers",
+    "type": "transport",
+    "description": "Service de transferts privés entre les quatre villes impériales, aéroports et sites touristiques. Véhicules confortables et climatisés, chauffeurs expérimentés connaissant parfaitement les routes marocaines.",
+    "ville": "Marrakech",
+    "adresse": "17 Rue Ibn Abi Zahar, Gueliz, Marrakech",
+    "contact": {
+      "telephone": "+212 6612-87654",
+      "email": "booking@imperialtransfers.ma"
+    },
+    "imageUrl": "assets/images/transport2.jpg",
+    "avantages": [
+      "Bouteilles d'eau offertes",
+      "WiFi gratuit à bord",
+      "Arrêts photos sur demande",
+      "Flexibilité sur les horaires"
+    ],
+    "tarifSpecial": "Transfert Marrakech-Fès avec arrêts à Meknès à 180€ au lieu de 220€"
+  }
+]

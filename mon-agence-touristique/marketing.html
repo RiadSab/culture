@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offres Spéciales - Villes Impériales du Maroc</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Villes Impériales du Maroc</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="villes.html">Villes</a></li>
+                <li><a href="itineraire.html">Itinéraires</a></li>
+                <li><a href="partenaires.html">Partenaires</a></li>
+                <li><a href="marketing.html" class="active">Offres</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="marketing-header">
+            <h2>Offres et Promotions</h2>
+            <p>Découvrez nos offres spéciales et promotions en cours pour visiter les villes impériales</p>
+        </section>
+        
+        <section class="promotions">
+            <div class="container">
+                <h3>Promotions en cours</h3>
+                <div id="promotions-container">
+                    <!-- Le contenu sera généré dynamiquement par marketing.ts -->
+                </div>
+            </div>
+        </section>
+
+        <section class="target-audience">
+            <div class="container">
+                <h3>Pour qui sont nos offres?</h3>
+                <div id="cibles-container">
+                    <!-- Le contenu sera généré dynamiquement par marketing.ts -->
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="container">
+                <h3>Restez informé de nos offres</h3>
+                <form id="newsletter-form">
+                    <div class="form-group">
+                        <label for="email">Adresse e-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Intérêts:</label>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="fes" name="interests" value="fes">
+                            <label for="fes">Fès</label>
+                            
+                            <input type="checkbox" id="meknes" name="interests" value="meknes">
+                            <label for="meknes">Meknès</label>
+                            
+                            <input type="checkbox" id="rabat" name="interests" value="rabat">
+                            <label for="rabat">Rabat</label>
+                            
+                            <input type="checkbox" id="marrakech" name="interests" value="marrakech">
+                            <label for="marrakech">Marrakech</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn">S'abonner</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Villes Impériales du Maroc - Agence de voyage</p>
+            <div class="social-links">
+                <a href="#" class="social">Facebook</a>
+                <a href="#" class="social">Instagram</a>
+                <a href="#" class="social">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="dist/main.js" type="module"></script>
+    <script src="dist/marketing.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,365 @@
+[
+  {
+    "id": "circuit-imperial-court",
+    "nom": "Circuit Impérial Express",
+    "duree": 5,
+    "typeDuree": "short",
+    "description": "Un circuit condensé pour découvrir l'essentiel des quatre villes impériales du Maroc en seulement 5 jours. Idéal pour ceux qui disposent de peu de temps mais souhaitent s'immerger dans l'histoire fascinante du royaume.",
+    "villes": ["Rabat", "Meknès", "Fès", "Marrakech"],
+    "jours": [
+      {
+        "jour": 1,
+        "titre": "Arrivée à Rabat",
+        "description": "Accueil à l'aéroport de Rabat-Salé et transfert vers votre hôtel. Premier contact avec la capitale administrative du Maroc.",
+        "activites": [
+          "Visite de la Tour Hassan et du Mausolée Mohammed V",
+          "Promenade dans la Kasbah des Oudayas",
+          "Dîner de bienvenue dans un restaurant traditionnel"
+        ],
+        "villeEtape": "Rabat",
+        "logement": "Hôtel Diwan Rabat"
+      },
+      {
+        "jour": 2,
+        "titre": "Rabat - Meknès",
+        "description": "Après le petit-déjeuner, départ pour Meknès, ancienne capitale impériale du sultan Moulay Ismaïl.",
+        "activites": [
+          "Visite de la porte monumentale Bab Mansour",
+          "Découverte des greniers et écuries royales de Heri es-Souani",
+          "Exploration du mausolée de Moulay Ismaïl",
+          "Promenade dans la médina de Meknès"
+        ],
+        "villeEtape": "Meknès"
+      },
+      {
+        "jour": 3,
+        "titre": "Meknès - Fès",
+        "description": "Départ pour Fès, la plus ancienne des villes impériales et capitale culturelle du Maroc.",
+        "activites": [
+          "Visite des remparts et des portes monumentales",
+          "Exploration de la médina de Fès el-Bali",
+          "Découverte de la médersa Bou Inania",
+          "Visite des tanneries traditionnelles"
+        ],
+        "villeEtape": "Fès",
+        "logement": "Riad Fès Authentique"
+      },
+      {
+        "jour": 4,
+        "titre": "Fès - Marrakech",
+        "description": "Départ matinal pour Marrakech. Longue route (environ 7 heures) à travers de magnifiques paysages.",
+        "activites": [
+          "Arrêt à Beni Mellal pour le déjeuner",
+          "Arrivée à Marrakech en fin d'après-midi",
+          "Première découverte de la place Jemaa el-Fna au coucher du soleil",
+          "Dîner dans un restaurant avec vue sur la place"
+        ],
+        "villeEtape": "Marrakech",
+        "logement": "Riad Al Ksar"
+      },
+      {
+        "jour": 5,
+        "titre": "Marrakech et départ",
+        "description": "Dernière journée consacrée à la découverte de Marrakech avant le départ.",
+        "activites": [
+          "Visite du Palais Bahia et des tombeaux Saadiens",
+          "Promenade dans les souks de la médina",
+          "Temps libre pour les derniers achats",
+          "Transfert à l'aéroport pour le vol de retour"
+        ],
+        "villeEtape": "Marrakech"
+      }
+    ],
+    "prix": {
+      "standard": 590,
+      "premium": 890
+    },
+    "imageUrl": "assets/images/circuit-court.jpg"
+  },
+  {
+    "id": "circuit-imperial-complet",
+    "nom": "Grand Tour Impérial",
+    "duree": 8,
+    "typeDuree": "medium",
+    "description": "Une exploration complète des quatre villes impériales avec suffisamment de temps pour apprécier pleinement chaque lieu. Ce circuit offre un bel équilibre entre visites culturelles, expériences culinaires et moments de détente.",
+    "villes": ["Rabat", "Meknès", "Fès", "Marrakech"],
+    "jours": [
+      {
+        "jour": 1,
+        "titre": "Bienvenue à Rabat",
+        "description": "Accueil à l'aéroport et transfert à votre hébergement. Journée d'introduction à la capitale marocaine.",
+        "activites": [
+          "Installation à l'hôtel et temps de repos",
+          "Visite guidée du quartier des Oudayas",
+          "Dîner de bienvenue avec présentation du circuit"
+        ],
+        "villeEtape": "Rabat",
+        "logement": "Hôtel La Tour Hassan Palace"
+      },
+      {
+        "jour": 2,
+        "titre": "Découverte de Rabat",
+        "description": "Journée complète dédiée à l'exploration de Rabat, mélange harmonieux d'histoire et de modernité.",
+        "activites": [
+          "Visite du site archéologique de Chellah",
+          "Découverte de la Tour Hassan et du Mausolée Mohammed V",
+          "Exploration du Musée Mohammed VI d'Art Moderne et Contemporain",
+          "Balade le long de la corniche et quartier libre"
+        ],
+        "villeEtape": "Rabat",
+        "logement": "Hôtel La Tour Hassan Palace"
+      },
+      {
+        "jour": 3,
+        "titre": "Rabat - Meknès",
+        "description": "Départ pour Meknès après le petit-déjeuner. Découverte de la 'Versailles marocaine'.",
+        "activites": [
+          "Visite de la majestueuse porte Bab Mansour",
+          "Exploration des greniers et écuries de Heri es-Souani",
+          "Découverte du mausolée de Moulay Ismaïl",
+          "Initiation à la damasquinerie, art traditionnel de Meknès"
+        ],
+        "villeEtape": "Meknès",
+        "logement": "Riad D'Or"
+      },
+      {
+        "jour": 4,
+        "titre": "Meknès - Volubilis - Fès",
+        "description": "Matinée à Meknès puis départ pour Fès, avec un arrêt aux ruines romaines de Volubilis.",
+        "activites": [
+          "Visite de la médina de Meknès et de son souk",
+          "Excursion au site archéologique de Volubilis",
+          "Arrivée à Fès en fin d'après-midi",
+          "Dîner traditionnel dans un palais restauré"
+        ],
+        "villeEtape": "Fès",
+        "logement": "Palais Faraj Suites & Spa"
+      },
+      {
+        "jour": 5,
+        "titre": "Fès: la médina",
+        "description": "Journée consacrée à l'exploration de Fès el-Bali, la plus grande médina piétonne au monde.",
+        "activites": [
+          "Visite de la médersa Bou Inania et Attarine",
+          "Découverte des tanneries Chouara",
+          "Exploration des souks et quartiers artisanaux",
+          "Atelier de poterie traditionnelle de Fès"
+        ],
+        "villeEtape": "Fès",
+        "logement": "Palais Faraj Suites & Spa"
+      },
+      {
+        "jour": 6,
+        "titre": "Fès - Beni Mellal - Marrakech",
+        "description": "Long trajet vers Marrakech avec arrêt à Beni Mellal, traversant des paysages variés du Moyen Atlas.",
+        "activites": [
+          "Départ matinal pour Marrakech",
+          "Arrêt à Ifrane, 'la petite Suisse marocaine'",
+          "Déjeuner à Beni Mellal et vue sur le barrage de Bin El Ouidane",
+          "Arrivée à Marrakech en fin de journée"
+        ],
+        "villeEtape": "Marrakech",
+        "logement": "Les Jardins de la Koutoubia"
+      },
+      {
+        "jour": 7,
+        "titre": "Marrakech: palais et jardins",
+        "description": "Découverte des trésors architecturaux et botaniques de Marrakech.",
+        "activites": [
+          "Visite du Palais Bahia et des tombeaux Saadiens",
+          "Découverte du Jardin Majorelle et du Musée Yves Saint Laurent",
+          "Exploration des jardins de la Ménara",
+          "Soirée spectacle Fantasia avec dîner traditionnel"
+        ],
+        "villeEtape": "Marrakech",
+        "logement": "Les Jardins de la Koutoubia"
+      },
+      {
+        "jour": 8,
+        "titre": "Marrakech: la médina et départ",
+        "description": "Dernière journée de découverte avant le départ.",
+        "activites": [
+          "Visite de la médina et de ses souks",
+          "Temps libre pour le shopping",
+          "Déjeuner d'adieu dans un restaurant typique",
+          "Transfert à l'aéroport pour le vol de retour"
+        ],
+        "villeEtape": "Marrakech"
+      }
+    ],
+    "prix": {
+      "standard": 1190,
+      "premium": 1590
+    },
+    "imageUrl": "assets/images/circuit-moyen.jpg"
+  },
+  {
+    "id": "circuit-imperial-authentique",
+    "nom": "Immersion Impériale",
+    "duree": 12,
+    "typeDuree": "long",
+    "description": "Un circuit approfondi pour ceux qui souhaitent prendre le temps de s'immerger dans la culture marocaine et découvrir les villes impériales dans toute leur authenticité, avec des expériences uniques et des rencontres privilégiées.",
+    "villes": ["Rabat", "Meknès", "Fès", "Marrakech"],
+    "jours": [
+      {
+        "jour": 1,
+        "titre": "Arrivée à Rabat",
+        "description": "Accueil personnalisé à l'aéroport et transfert vers votre riad de charme à Rabat.",
+        "activites": [
+          "Accueil traditionnel avec thé à la menthe et pâtisseries marocaines",
+          "Installation et temps libre pour se reposer du voyage",
+          "Dîner léger à l'hébergement"
+        ],
+        "villeEtape": "Rabat",
+        "logement": "Dar El Kebira"
+      },
+      {
+        "jour": 2,
+        "titre": "Rabat: histoire et patrimoine",
+        "description": "Première journée de découverte de la capitale administrative du Maroc.",
+        "activites": [
+          "Visite de la Tour Hassan et du Mausolée Mohammed V",
+          "Exploration de la nécropole de Chellah",
+          "Déjeuner dans un restaurant avec vue sur l'océan",
+          "Découverte du Musée National d'Archéologie"
+        ],
+        "villeEtape": "Rabat",
+        "logement": "Dar El Kebira"
+      },
+      {
+        "jour": 3,
+        "titre": "Rabat: art et culture contemporaine",
+        "description": "Journée dédiée à la découverte de Rabat moderne et de son dynamisme culturel.",
+        "activites": [
+          "Visite du Musée Mohammed VI d'Art Moderne et Contemporain",
+          "Promenade dans le jardin d'Essais Botaniques",
+          "Rencontre avec des artistes locaux dans leurs ateliers",
+          "Dîner gastronomique fusion marocaine-internationale"
+        ],
+        "villeEtape": "Rabat",
+        "logement": "Dar El Kebira"
+      },
+      {
+        "jour": 4,
+        "titre": "Rabat - Meknès",
+        "description": "Départ pour Meknès en passant par des paysages ruraux pittoresques.",
+        "activites": [
+          "Arrêt dans un domaine agricole pour découvrir les produits locaux",
+          "Arrivée à Meknès et installation dans votre hébergement",
+          "Première promenade dans la médina de Meknès",
+          "Dîner traditionnel dans un ancien palais"
+        ],
+        "villeEtape": "Meknès",
+        "logement": "Riad Yacout"
+      },
+      {
+        "jour": 5,
+        "titre": "Meknès: splendeurs royales",
+        "description": "Journée consacrée à l'exploration des monuments historiques de Meknès.",
+        "activites": [
+          "Visite des remparts et des portes monumentales dont Bab Mansour",
+          "Exploration du mausolée de Moulay Ismaïl",
+          "Découverte des greniers et écuries de Heri es-Souani",
+          "Atelier d'initiation à la damasquinerie avec un maître artisan"
+        ],
+        "villeEtape": "Meknès",
+        "logement": "Riad Yacout"
+      },
+      {
+        "jour": 6,
+        "titre": "Meknès - Volubilis - Moulay Idriss - Fès",
+        "description": "Journée d'excursion autour de Meknès avant de rejoindre Fès.",
+        "activites": [
+          "Visite des ruines romaines de Volubilis",
+          "Découverte de la ville sainte de Moulay Idriss Zerhoun",
+          "Déjeuner chez l'habitant",
+          "Arrivée à Fès en fin de journée"
+        ],
+        "villeEtape": "Fès",
+        "logement": "Riad Fes Maya Suite & Spa"
+      },
+      {
+        "jour": 7,
+        "titre": "Fès: la médina millénaire",
+        "description": "Première journée de découverte de Fès, centrée sur sa médina exceptionnelle.",
+        "activites": [
+          "Exploration de Fès el-Bali avec un guide local",
+          "Visite des médersas Bou Inania et Attarine",
+          "Découverte des tanneries traditionnelles",
+          "Dégustation de spécialités culinaires fassi"
+        ],
+        "villeEtape": "Fès",
+        "logement": "Riad Fes Maya Suite & Spa"
+      },
+      {
+        "jour": 8,
+        "titre": "Fès: artisanat et traditions",
+        "description": "Deuxième journée à Fès dédiée à son riche patrimoine artisanal.",
+        "activites": [
+          "Visite d'ateliers de poterie et céramique",
+          "Découverte du travail du cuivre et du bois de cèdre",
+          "Atelier culinaire pour apprendre à préparer des plats marocains",
+          "Soirée musicale avec des musiciens andalous traditionnels"
+        ],
+        "villeEtape": "Fès",
+        "logement": "Riad Fes Maya Suite & Spa"
+      },
+      {
+        "jour": 9,
+        "titre": "Fès - Ifrane - Béni Mellal - Marrakech",
+        "description": "Longue journée de route à travers des paysages variés du Moyen Atlas jusqu'à Marrakech.",
+        "activites": [
+          "Départ matinal pour Marrakech",
+          "Arrêt à Ifrane, ville aux allures européennes",
+          "Passage par la région des lacs et forêts de cèdres",
+          "Déjeuner à Béni Mellal et arrivée à Marrakech en soirée"
+        ],
+        "villeEtape": "Marrakech",
+        "logement": "Riad Kniza"
+      },
+      {
+        "jour": 10,
+        "titre": "Marrakech: histoire et monuments",
+        "description": "Première journée de découverte de Marrakech centrée sur son patrimoine historique.",
+        "activites": [
+          "Visite du Palais Bahia et du Palais Badii",
+          "Découverte des tombeaux Saadiens",
+          "Exploration de la mosquée Koutoubia (extérieur)",
+          "Première approche de la place Jemaa el-Fna"
+        ],
+        "villeEtape": "Marrakech",
+        "logement": "Riad Kniza"
+      },
+      {
+        "jour": 11,
+        "titre": "Marrakech: jardins et art de vivre",
+        "description": "Journée consacrée aux magnifiques jardins de Marrakech et à son art de vivre.",
+        "activites": [
+          "Visite du Jardin Majorelle et du Musée Yves Saint Laurent",
+          "Découverte des jardins secrets de la médina",
+          "Expérience hammam et spa dans un établissement traditionnel",
+          "Dîner spectacle dans un ancien palais"
+        ],
+        "villeEtape": "Marrakech",
+        "logement": "Riad Kniza"
+      },
+      {
+        "jour": 12,
+        "titre": "Marrakech: souks et départ",
+        "description": "Dernière journée pour profiter des souks et finaliser vos achats avant le départ.",
+        "activites": [
+          "Exploration guidée des souks de Marrakech",
+          "Temps libre pour le shopping",
+          "Déjeuner d'adieu dans un restaurant avec vue sur la médina",
+          "Transfert à l'aéroport pour le vol de retour"
+        ],
+        "villeEtape": "Marrakech"
+      }
+    ],
+    "prix": {
+      "standard": 1790,
+      "premium": 2490
+    },
+    "imageUrl": "assets/images/circuit-long.jpg"
+  }
+]

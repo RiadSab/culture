@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Débogage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #c0392b;
+        }
+        .error {
+            color: red;
+            background-color: #ffeeee;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .success {
+            color: green;
+            background-color: #eeffee;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        button {
+            padding: 8px 15px;
+            background-color: #c0392b;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        code {
+            background-color: #f0f0f0;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        #results {
+            margin-top: 20px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Page de Débogage</h1>
+    <p>Cette page permet de vérifier si l'environnement est configuré correctement.</p>
+    
+    <h2>Tests de base</h2>
+    
+    <div id="results">
+        <p>Résultats des tests:</p>
+        <div id="js-test">Test JavaScript: <span>En attente...</span></div>
+        <div id="dom-test">Test DOM: <span>En attente...</span></div>
+        <div id="ts-test">Test TypeScript: <span>En attente...</span></div>
+        <div id="file-paths">Chemin du fichier: <span>En attente...</span></div>
+    </div>
+    
+    <h2>Actions</h2>
+    <button id="run-tests">Exécuter les tests</button>
+    <button id="check-files">Vérifier les fichiers</button>
+    
+    <script>
+        // Test JavaScript de base
+        document.getElementById('js-test').innerHTML = 'Test JavaScript: <span class="success">OK</span>';
+        
+        // Test DOM
+        if (document.getElementById('results')) {
+            document.getElementById('dom-test').innerHTML = 'Test DOM: <span class="success">OK</span>';
+        } else {
+            document.getElementById('dom-test').innerHTML = 'Test DOM: <span class="error">Échec</span>';
+        }
+        
+        // Afficher le chemin du fichier
+        document.getElementById('file-paths').innerHTML = 'Chemin du fichier: <code>' + window.location.pathname + '</code>';
+        
+        // Fonction pour tester l'accès aux fichiers
+        document.getElementById('check-files').addEventListener('click', function() {
+            const result = document.createElement('div');
+            result.innerHTML = '<h3>Test d\'accès aux fichiers:</h3>';
+            
+            // Tester l'accès à main.js
+            const mainScript = document.createElement('script');
+            mainScript.src = './dist/main.js';
+            mainScript.onload = function() {
+                const item = document.createElement('div');
+                item.innerHTML = 'Accès à main.js: <span class="success">OK</span>';
+                result.appendChild(item);
+            };
+            mainScript.onerror = function() {
+                const item = document.createElement('div');
+                item.innerHTML = 'Accès à main.js: <span class="error">Échec - Fichier non trouvé</span>';
+                result.appendChild(item);
+            };
+            document.head.appendChild(mainScript);
+            
+            // Tester l'accès au CSS
+            const cssLink = document.createElement('link');
+            cssLink.href = './css/style.css';
+            cssLink.rel = 'stylesheet';
+            cssLink.onload = function() {
+                const item = document.createElement('div');
+                item.innerHTML = 'Accès à style.css: <span class="success">OK</span>';
+                result.appendChild(item);
+            };
+            cssLink.onerror = function() {
+                const item = document.createElement('div');
+                item.innerHTML = 'Accès à style.css: <span class="error">Échec - Fichier non trouvé</span>';
+                result.appendChild(item);
+            };
+            document.head.appendChild(cssLink);
+            
+            document.getElementById('results').appendChild(result);
+        });
+        
+        // Signal que le script est exécuté
+        console.log("Debug script loaded and executed!");
+    </script>
+    
+    <!-- Ce script sera chargé s'il existe, pour tester TypeScript -->
+    <script>
+        function checkTypescript() {
+            try {
+                const script = document.createElement('script');
+                script.src = './dist/test.js';
+                script.onload = function() {
+                    document.getElementById('ts-test').innerHTML = 'Test TypeScript: <span class="success">OK</span>';
+                };
+                script.onerror = function() {
+                    document.getElementById('ts-test').innerHTML = 'Test TypeScript: <span class="error">Échec - Le fichier compilé test.js n\'a pas été trouvé. Avez-vous exécuté `npm run build`?</span>';
+                };
+                document.head.appendChild(script);
+            } catch (error) {
+                document.getElementById('ts-test').innerHTML = 'Test TypeScript: <span class="error">Erreur: ' + error.message + '</span>';
+            }
+        }
+        
+        document.getElementById('run-tests').addEventListener('click', checkTypescript);
+    </script>
+</body>
+</html>
