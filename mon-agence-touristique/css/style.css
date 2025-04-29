@@ -1,5 +1,6 @@
 /* Variables globales */
 :root {
+  /* --primary-color: #c0392b; */
   --primary-color: #c0392b;
   --secondary-color: #2c3e50;
   --accent-color: #f39c12;
@@ -1409,4 +1410,31 @@ body.loaded {
   .accordion-header h4 {
     font-size: 1rem;
   }
+}
+
+.itineraire-header {
+    background-image: url('../images/zellij.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 100px 20px;
+    color: white;
+    text-align: center;
+}
+
+.itineraire-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.itineraire-header h2, 
+.itineraire-header p {
+    position: relative;
+    z-index: 2;
 }

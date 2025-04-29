@@ -5,6 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Itinéraires - Villes Impériales du Maroc</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+    .itineraire-header {
+        background-image: url('images/maroc-background.jpg'); /* Chemin de votre image */
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        padding: 100px 20px;
+        color: white;
+        text-align: center;
+    }
+    
+    .itineraire-header::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+    }
+    
+    .itineraire-header h2, 
+    .itineraire-header p {
+        position: relative;
+        z-index: 2;
+    }
+</style>
 </head>
 <body>
     <header>
