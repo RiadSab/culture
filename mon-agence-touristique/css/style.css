@@ -1413,7 +1413,7 @@ body.loaded {
 }
 
 .itineraire-header {
-    background-image: url('../images/zellij.jpg');
+    background-image: url('../images/zellij.jpg') !important;
     background-size: cover;
     background-position: center;
     position: relative;
