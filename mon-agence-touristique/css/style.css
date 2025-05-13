@@ -12,6 +12,12 @@
   --box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* #text-sh{ 
+  color: rgba(0, 0, 0, 0.5);
+  font-size: rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+} */
+
 /* Reset et base */
 * {
   margin: 0;

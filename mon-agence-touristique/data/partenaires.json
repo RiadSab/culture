@@ -11,7 +11,7 @@
       "email": "reservations@latourhassan.com",
       "site": "https://www.latourhassan.com"
     },
-    "imageUrl": "assets/images/hotel-rabat1.jpg",
+    "imageUrl": "part/tour.jpg",
     "avantages": [
       "Petit-déjeuner offert pour les clients de notre agence",
       "Surclassement selon disponibilité",
@@ -31,7 +31,7 @@
       "email": "contact@riadfesmaya.com",
       "site": "https://www.riadfesmaya.com"
     },
-    "imageUrl": "assets/images/riad-fes1.jpg",
+    "imageUrl": "part/maya.jpg",
     "avantages": [
       "Accueil traditionnel avec thé à la menthe et pâtisseries",
       "Un dîner offert pour tout séjour de 3 nuits et plus",
@@ -51,7 +51,7 @@
       "email": "reservation@lesjardinsdelakoutoubia.com",
       "site": "https://www.lesjardinsdelakoutoubia.com"
     },
-    "imageUrl": "assets/images/hotel-marrakech1.jpg",
+    "imageUrl": "part/jardin.jpg",
     "avantages": [
       "Cocktail de bienvenue offert",
       "Accès gratuit au spa (hors soins)",
@@ -71,7 +71,7 @@
       "email": "info@riadyacout.com",
       "site": "https://www.riadyacout.com"
     },
-    "imageUrl": "assets/images/riad-meknes1.jpg",
+    "imageUrl": "part/yakout.jpg",
     "avantages": [
       "Hammam traditionnel offert une fois par séjour",
       "Cours de cuisine marocaine à tarif préférentiel",
@@ -89,7 +89,7 @@
       "telephone": "+212 5356-34609",
       "email": "reservation@darhatim.com"
     },
-    "imageUrl": "assets/images/resto-fes1.jpg",
+    "imageUrl": "part/hatim.jpeg",
     "avantages": [
       "Apéritif maison offert",
       "Réduction de 10% sur l'addition"
@@ -108,7 +108,7 @@
       "email": "reservations@comptoirdarna.com",
       "site": "https://www.comptoirdarna.com"
     },
-    "imageUrl": "assets/images/resto-marrakech1.jpg",
+    "imageUrl": "part/comptoir.jpeg",
     "avantages": [
       "Coupe de champagne offerte",
       "Places privilégiées pour le spectacle",
