@@ -107,7 +107,8 @@ nav ul li a.active::after {
 
 /* Hero Section */
 .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../assets/images/hero-bg.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('../assets/images/hero-bg.jpg');
   background-size: cover;
   background-position: center;
   height: 60vh;
@@ -121,6 +122,10 @@ nav ul li a.active::after {
 .hero-content {
   max-width: 800px;
   padding: 2rem;
+}
+
+#text_1 {
+  text-shadow: 5px 5px 5px #666 !important;
 }
 
 /* .hero-content h2 {
@@ -201,9 +206,9 @@ nav ul li a.active::after {
 }
 
 /* Pages Sections */
-.ville-header, 
-.itineraire-header, 
-.partenaires-header, 
+.ville-header,
+.itineraire-header,
+.partenaires-header,
 .marketing-header {
   background-color: var(--secondary-color);
   color: white;
@@ -211,9 +216,9 @@ nav ul li a.active::after {
   text-align: center;
 }
 
-.ville-header h2, 
-.itineraire-header h2, 
-.partenaires-header h2, 
+.ville-header h2,
+.itineraire-header h2,
+.partenaires-header h2,
 .marketing-header h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
@@ -252,7 +257,7 @@ section h3 {
   transition: all 0.3s ease;
 }
 
-.city-link:hover, 
+.city-link:hover,
 .city-link.active {
   background-color: var(--secondary-color);
   color: white;
@@ -278,14 +283,14 @@ section h3 {
   margin-bottom: 2rem;
 }
 
-.ville-histoire, 
-.ville-sites, 
+.ville-histoire,
+.ville-sites,
 .ville-traditions {
   margin-bottom: 2.5rem;
 }
 
-.ville-histoire h3, 
-.ville-sites h3, 
+.ville-histoire h3,
+.ville-sites h3,
 .ville-traditions h3 {
   font-size: 1.8rem;
   color: var(--secondary-color);
@@ -360,7 +365,7 @@ section h3 {
   transition: all 0.3s ease;
 }
 
-.filter-btn:hover, 
+.filter-btn:hover,
 .filter-btn.active {
   background-color: var(--secondary-color);
   color: white;
@@ -390,7 +395,7 @@ section h3 {
   visibility: hidden;
   padding: 1rem;
   /* color: var(--primary-color); */
-  color:rgb(255, 255, 255)
+  color: rgb(255, 255, 255);
 }
 
 .itineraire-meta {
@@ -410,7 +415,7 @@ section h3 {
   margin-bottom: 1.5rem;
 }
 
-.itineraire-jours h4, 
+.itineraire-jours h4,
 .itineraire-prix h4 {
   font-size: 1.3rem;
   margin-bottom: 1rem;
@@ -611,14 +616,17 @@ section h3 {
   margin-bottom: 0.5rem;
 }
 
-.avantages, .tarif-special {
+.avantages,
+.tarif-special {
   background-color: #f9f9f9;
   padding: 1rem;
   border-radius: var(--border-radius);
   margin-top: 1rem;
 }
 
-.avantages h4, .besoins h4, .offres-adaptees h4 {
+.avantages h4,
+.besoins h4,
+.offres-adaptees h4 {
   font-size: 1.1rem;
   margin-bottom: 0.5rem;
   color: var(--secondary-color);
@@ -649,7 +657,7 @@ section h3 {
   margin-bottom: 0.5rem;
 }
 
-.form-group input[type="email"] {
+.form-group input[type='email'] {
   width: 100%;
   padding: 0.8rem;
   border-radius: var(--border-radius);
@@ -662,7 +670,7 @@ section h3 {
   gap: 1rem;
 }
 
-.checkbox-group input[type="checkbox"] {
+.checkbox-group input[type='checkbox'] {
   margin-right: 0.5rem;
 }
 
@@ -1054,23 +1062,23 @@ footer {
   .ville-hero h2 {
     font-size: 2.5rem;
   }
-  
+
   .ville-hero p {
     font-size: 1.1rem;
   }
-  
+
   .timeline::before {
     left: 15px;
   }
-  
+
   .timeline-item {
     padding-left: 40px;
   }
-  
+
   .timeline-dot {
     left: 13px;
   }
-  
+
   .cta-content h3 {
     font-size: 2rem;
   }
@@ -1410,7 +1418,7 @@ body.loaded {
   .contact-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .contact-details {
     order: -1;
   }
@@ -1420,39 +1428,39 @@ body.loaded {
   .contact-hero h2 {
     font-size: 2.5rem;
   }
-  
+
   .contact-hero p {
     font-size: 1.1rem;
   }
-  
+
   .accordion-header h4 {
     font-size: 1rem;
   }
 }
 
 .itineraire-header {
-    background-image: url('../images/zellij.jpg') !important;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    padding: 100px 20px;
-    color: white;
-    text-align: center;
+  background-image: url('../images/pic5.jpg') !important;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 100px 20px;
+  color: white;
+  text-align: center;
 }
 
 .itineraire-header::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
 }
 
-.itineraire-header h2, 
+.itineraire-header h2,
 .itineraire-header p {
-    position: relative;
-    z-index: 2;
+  position: relative;
+  z-index: 2;
 }

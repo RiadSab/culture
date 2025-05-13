@@ -35,7 +35,6 @@ function handleScrollAnimations(): void {
     });
 }
 
-// Fonction pour gérer la galerie lightbox
 function setupLightbox(): void {
     const lightbox = document.getElementById('lightbox');
     const lightboxImg = document.getElementById('lightbox-img') as HTMLImageElement | null;
