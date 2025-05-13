@@ -14,7 +14,8 @@
         "activites": [
           "Visite de la Tour Hassan et du Mausolée Mohammed V",
           "Promenade dans la Kasbah des Oudayas",
-          "Dîner de bienvenue dans un restaurant traditionnel"
+          "Dîner de bienvenue dans un restaurant traditionnel",
+          "Visiter La Chellah"
         ],
         "villeEtape": "Rabat",
         "logement": "Hôtel Diwan Rabat"
@@ -91,7 +92,8 @@
         "activites": [
           "Installation à l'hôtel et temps de repos",
           "Visite guidée du quartier des Oudayas",
-          "Dîner de bienvenue avec présentation du circuit"
+          "Dîner de bienvenue avec présentation du circuit",
+          "Visiter la Chellah"
         ],
         "villeEtape": "Rabat",
         "logement": "Hôtel La Tour Hassan Palace"
@@ -143,7 +145,8 @@
           "Visite de la médersa Bou Inania et Attarine",
           "Découverte des tanneries Chouara",
           "Exploration des souks et quartiers artisanaux",
-          "Atelier de poterie traditionnelle de Fès"
+          "Atelier de poterie traditionnelle de Fès",
+          "La Mosquée Al Quaraouiyine "
         ],
         "villeEtape": "Fès",
         "logement": "Palais Faraj Suites & Spa"
@@ -208,7 +211,8 @@
         "activites": [
           "Accueil traditionnel avec thé à la menthe et pâtisseries marocaines",
           "Installation et temps libre pour se reposer du voyage",
-          "Dîner léger à l'hébergement"
+          "Dîner léger à l'hébergement",
+          "Visiter la Chellah"
         ],
         "villeEtape": "Rabat",
         "logement": "Dar El Kebira"
@@ -286,7 +290,10 @@
           "Exploration de Fès el-Bali avec un guide local",
           "Visite des médersas Bou Inania et Attarine",
           "Découverte des tanneries traditionnelles",
-          "Dégustation de spécialités culinaires fassi"
+          "Dégustation de spécialités culinaires fassi",
+          "Visiter La Mosquée Al Quaraouiyine",
+          "Decouvrir le Palais Royal",
+          "Contempler Broderies traditionnelles"
         ],
         "villeEtape": "Fès",
         "logement": "Riad Fes Maya Suite & Spa"
@@ -325,7 +332,8 @@
           "Visite du Palais Bahia et du Palais Badii",
           "Découverte des tombeaux Saadiens",
           "Exploration de la mosquée Koutoubia (extérieur)",
-          "Première approche de la place Jemaa el-Fna"
+          "Première approche de la place Jemaa el-Fna",
+          "Visiter le Palais Bahia"
         ],
         "villeEtape": "Marrakech",
         "logement": "Riad Kniza"
